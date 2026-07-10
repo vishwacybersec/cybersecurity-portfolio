@@ -19,3 +19,20 @@ This project demonstrates how to analyze DNS logs using Splunk Enterprise. The o
 - Windows 10
 - Sample DNS Log Dataset (CSV)
 - GitHub
+
+## Dataset
+
+The dataset contains sample DNS events used for learning Splunk SIEM.
+
+Fields included:
+
+- timestamp
+- src_ip
+- dest_ip
+- protocol
+- port
+- query
+- query_type
+- response_code
+- resolved_ip
+- note
