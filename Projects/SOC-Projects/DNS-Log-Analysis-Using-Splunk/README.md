@@ -36,3 +36,13 @@ Fields included:
 - response_code
 - resolved_ip
 - note
+
+## Skills Demonstrated
+
+- Log Ingestion into Splunk
+- DNS Log Analysis
+- SPL Query Writing
+- Source IP Investigation
+- DNS Response Code Analysis
+- Suspicious Domain Investigation
+- Basic Incident Investigation
