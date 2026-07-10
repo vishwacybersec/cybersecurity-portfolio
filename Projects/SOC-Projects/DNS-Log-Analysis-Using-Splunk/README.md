@@ -135,3 +135,42 @@ The following source IPs generated multiple DNS requests:
 ### Analyst Observation
 
 Repeated failed DNS requests may indicate user error, application retry behavior, or potentially suspicious activity. Additional investigation is required before concluding the activity is malicious.
+
+## Incident Report
+
+### Incident Type
+
+DNS Investigation
+
+### Summary
+
+A DNS log analysis was performed using Splunk Enterprise.
+
+### Findings
+
+- 12 DNS events analyzed
+- 8 successful DNS lookups
+- 4 failed DNS lookups (NXDOMAIN)
+
+Repeated requests were identified for **abcxyz123fake.com**.
+
+The domain **random-malware-domain.biz** appeared suspicious and should be investigated further.
+
+### Recommendation
+
+Review endpoint activity, verify the requested domains using threat intelligence, and correlate findings with other security logs before determining whether the activity is malicious.
+
+## Conclusion
+
+This project demonstrates practical DNS log analysis using Splunk SIEM.
+
+Skills demonstrated include:
+
+- DNS log investigation
+- SPL query writing
+- Source IP analysis
+- DNS response analysis
+- Suspicious domain identification
+- Basic SOC incident investigation
+
+This project was completed as part of my SOC Analyst learning journey.
