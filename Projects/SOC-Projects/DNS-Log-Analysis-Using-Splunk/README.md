@@ -104,3 +104,34 @@ source="Beginner_DNS_Logs.csv"
 source="Beginner_DNS_Logs.csv"
 | dedup query
 ```
+
+## Investigation Findings
+
+### Total DNS Events
+
+- 12 DNS events analyzed
+
+### DNS Response Summary
+
+- NOERROR: 8
+- NXDOMAIN: 4
+
+### Source IP Analysis
+
+The following source IPs generated multiple DNS requests:
+
+- 192.168.1.10 (2 Requests)
+- 192.168.1.30 (2 Requests)
+
+### Suspicious Observations
+
+- Repeated DNS requests to **abcxyz123fake.com**
+- DNS lookup failed with **NXDOMAIN**
+- Suspicious-looking domain:
+  - xn--security-check-update123.com
+- Possible malware domain:
+  - random-malware-domain.biz
+
+### Analyst Observation
+
+Repeated failed DNS requests may indicate user error, application retry behavior, or potentially suspicious activity. Additional investigation is required before concluding the activity is malicious.
