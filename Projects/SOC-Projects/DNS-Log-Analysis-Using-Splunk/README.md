@@ -46,3 +46,61 @@ Fields included:
 - DNS Response Code Analysis
 - Suspicious Domain Investigation
 - Basic Incident Investigation
+
+## SPL Queries Used
+
+### Display All Events
+
+```spl
+source="Beginner_DNS_Logs.csv"
+```
+
+### Display Selected Fields
+
+```spl
+source="Beginner_DNS_Logs.csv"
+| table timestamp src_ip dest_ip protocol port query query_type response_code resolved_ip note
+```
+
+### Count Total Events
+
+```spl
+source="Beginner_DNS_Logs.csv"
+| stats count
+```
+
+### Count by Source IP
+
+```spl
+source="Beginner_DNS_Logs.csv"
+| stats count by src_ip
+| sort -count
+```
+
+### Find Failed DNS Requests
+
+```spl
+source="Beginner_DNS_Logs.csv"
+| search response_code="NXDOMAIN"
+```
+
+### Find Top Queried Domains
+
+```spl
+source="Beginner_DNS_Logs.csv"
+| top query
+```
+
+### Find Rare Domains
+
+```spl
+source="Beginner_DNS_Logs.csv"
+| rare query
+```
+
+### Remove Duplicate Queries
+
+```spl
+source="Beginner_DNS_Logs.csv"
+| dedup query
+```
