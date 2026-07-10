@@ -12,3 +12,10 @@ This project demonstrates how to analyze DNS logs using Splunk Enterprise. The o
 - Identify suspicious domains
 - Practice SPL queries
 - Improve SOC Analyst investigation skills
+  
+## Tools Used
+
+- Splunk Enterprise 10.4
+- Windows 10
+- Sample DNS Log Dataset (CSV)
+- GitHub
