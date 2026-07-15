@@ -2,25 +2,27 @@
 
 ## Project Overview
 
-This project demonstrates the investigation of Windows Security Event Logs using Event Viewer and Sysmon. The investigation focuses on analyzing authentication events, account management activities, and process creation logs to identify normal and suspicious system behavior. The project simulates tasks commonly performed by a Security Operations Center (SOC) Analyst during security monitoring and incident response.
+This project demonstrates a practical investigation of Windows Security Event Logs and Sysmon logs using Windows Event Viewer. The investigation focuses on analyzing authentication events, account management activities, and process lifecycle events to understand how Windows records security-related activity.
+
+During this project, multiple Windows Security Event IDs were generated manually and investigated using Event Viewer. Additionally, Sysmon was used to monitor process creation and termination events, providing enhanced endpoint visibility commonly used in Security Operations Centers (SOCs).
 
 ---
 
-## Objectives
+# Objectives
 
-- Understand Windows Security Event Logs.
-- Investigate common Windows Event IDs.
+- Learn Windows Event Viewer navigation.
+- Investigate Windows Security Event Logs.
 - Analyze successful and failed logon events.
-- Monitor user account creation, deletion, and account lockout events.
-- Investigate process creation using Sysmon.
-- Develop practical Windows log analysis skills required for an entry-level SOC Analyst.
+- Monitor user account creation and deletion.
+- Investigate Sysmon Process Creation and Process Termination events.
+- Develop practical Windows log analysis skills for a SOC Analyst role.
 
 ---
 
-## Lab Environment
+# Lab Environment
 
 | Component | Details |
-|----------|---------|
+|-----------|---------|
 | Operating System | Windows 10 |
 | Log Source | Windows Security Logs |
 | Additional Tool | Sysmon |
@@ -28,15 +30,15 @@ This project demonstrates the investigation of Windows Security Event Logs using
 
 ---
 
-## Tools Used
+# Tools Used
 
 - Windows Event Viewer
-- Sysmon
 - Windows Security Logs
+- Sysmon
 
 ---
 
-## Event IDs Investigated
+# Event IDs Investigated
 
 | Event ID | Description |
 |----------|-------------|
@@ -44,71 +46,146 @@ This project demonstrates the investigation of Windows Security Event Logs using
 | 4625 | Failed Logon |
 | 4720 | User Account Created |
 | 4726 | User Account Deleted |
-| 4740 | User Account Locked |
 | Sysmon Event ID 1 | Process Creation |
+| Sysmon Event ID 5 | Process Termination |
 
 ---
 
-## Investigation Process
+# Investigation Process
 
 1. Opened Windows Event Viewer.
-2. Navigated to **Windows Logs → Security**.
+2. Navigated to Windows Security Logs.
 3. Filtered logs using specific Event IDs.
-4. Examined event details such as:
-   - Time Created
-   - Account Name
-   - Logon Type
-   - Computer Name
-   - Process Name
-5. Investigated Sysmon Process Creation events.
-6. Documented findings and security observations.
+4. Generated authentication events through normal and failed logins.
+5. Created and deleted a local Windows user account.
+6. Installed and used Sysmon.
+7. Generated Process Creation events.
+8. Generated Process Termination events.
+9. Reviewed event details.
+10. Documented findings.
 
 ---
 
-## Key Findings
+# Key Findings
 
-- Successfully identified successful user logon events.
+- Successfully investigated Windows authentication events.
+- Identified successful user logons.
 - Investigated failed authentication attempts.
-- Verified user account creation and deletion events.
-- Examined account lockout activities.
-- Monitored process creation using Sysmon.
-- Understood how Windows logs assist SOC analysts during incident investigations.
+- Verified local user account creation.
+- Verified local user account deletion.
+- Investigated Sysmon Process Creation logs.
+- Investigated Sysmon Process Termination logs.
+- Improved understanding of Windows endpoint monitoring.
 
 ---
 
-## Skills Demonstrated
+# Skills Demonstrated
 
 - Windows Event Log Analysis
 - Event Viewer Investigation
 - Windows Authentication Analysis
-- Account Management Monitoring
-- Sysmon Log Analysis
-- Security Monitoring
+- User Account Monitoring
+- Sysmon Investigation
+- Process Monitoring
+- Security Documentation
 - Incident Investigation
-- SOC Documentation
+- SOC Analyst Workflow
 
 ---
 
-## Screenshots
+# Screenshots
 
-The **Screenshots** folder contains images demonstrating:
+## 1. Event Viewer Home
 
-- Windows Event Viewer
-- Event ID 4624 Investigation
-- Event ID 4625 Investigation
-- Event ID 4720 Investigation
-- Event ID 4726 Investigation
-- Event ID 4740 Investigation
-- Sysmon Event ID 1 Investigation
+The Event Viewer interface used during the investigation.
+
+![Event Viewer](Screenshots/01-Event-Viewer.png)
 
 ---
 
-## What I Learned
+## 2. Windows Security Logs
 
-Through this project, I gained practical experience investigating Windows Security Event Logs and understanding how authentication events, account management activities, and process creation logs are used during security monitoring. This hands-on exercise strengthened my log analysis skills and improved my ability to identify potential security incidents from Windows event data.
+Security logs containing authentication and account management events.
+
+![Security Logs](Screenshots/02-Security-Logs.png)
 
 ---
 
-## Conclusion
+## 3. Event ID 4624 – Successful Logon
 
-Windows Event Logs are one of the primary data sources used by SOC analysts to detect suspicious activity and investigate security incidents. This project provided practical experience with Windows Security Logs and Sysmon, improving my ability to analyze authentication events, monitor user activity, and document findings in a professional incident investigation workflow.
+Verified successful authentication and analyzed logon information.
+
+![Event ID 4624](Screenshots/03-EventID-4624.png)
+
+---
+
+## 4. Event ID 4625 – Failed Logon
+
+Investigated failed authentication attempts and reviewed the failure reason.
+
+![Event ID 4625](Screenshots/04-EventID-4625.png)
+
+---
+
+## 5. Event ID 4720 – User Account Created
+
+Generated and investigated a local user account creation event.
+
+![Event ID 4720](Screenshots/05-EventID-4720.png)
+
+---
+
+## 6. Event ID 4726 – User Account Deleted
+
+Generated and investigated a local user account deletion event.
+
+![Event ID 4726](Screenshots/06-EventID-4726.png)
+
+---
+
+## 7. Sysmon Event ID 1 – Process Creation
+
+Investigated Sysmon Process Creation events to analyze executable name, command line, process ID, and execution time.
+
+![Sysmon Event ID 1](Screenshots/07-Sysmon-EventID-1.png)
+
+---
+
+## 8. Sysmon Event ID 5 – Process Termination
+
+Investigated Sysmon Process Termination events to analyze terminated processes and process lifecycle.
+
+![Sysmon Event ID 5](Screenshots/08-Sysmon-EventID-5.png)
+
+---
+
+# What I Learned
+
+This project provided hands-on experience investigating Windows Security Event Logs and Sysmon telemetry. I learned how Windows records authentication events, account management activities, and process execution information. I also gained practical experience using Event Viewer to investigate Windows events and document findings similar to those performed by entry-level SOC Analysts.
+
+---
+
+# Conclusion
+
+Windows Event Logs are one of the primary data sources used by Security Operations Centers (SOCs) to detect suspicious activity and investigate security incidents. Through this project, I developed practical experience generating, investigating, and documenting Windows Security Events and Sysmon logs. These skills are directly applicable to entry-level SOC Analyst responsibilities such as security monitoring, log analysis, and incident investigation.
+
+---
+
+# Project Files
+
+```
+SOC-Project-02-Windows-Event-Log-Investigation/
+│
+├── README.md
+├── Investigation_Queries.md
+├── Incident_Report.md
+└── Screenshots/
+    ├── 01-Event-Viewer.png
+    ├── 02-Security-Logs.png
+    ├── 03-EventID-4624.png
+    ├── 04-EventID-4625.png
+    ├── 05-EventID-4720.png
+    ├── 06-EventID-4726.png
+    ├── 07-Sysmon-EventID-1.png
+    └── 08-Sysmon-EventID-5.png
+```
