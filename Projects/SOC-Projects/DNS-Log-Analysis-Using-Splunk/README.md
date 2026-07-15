@@ -2,175 +2,110 @@
 
 ## Project Overview
 
-This project demonstrates how to analyze DNS logs using Splunk Enterprise. The objective is to identify normal and suspicious DNS activity by using Splunk Search Processing Language (SPL).
+This project demonstrates DNS log analysis using Splunk Enterprise. The objective was to investigate DNS traffic, identify failed DNS lookups (NXDOMAIN), analyze source IP activity, and detect suspicious domain queries.
 
-## Project Objectives
+## Objectives
 
-- Import DNS logs into Splunk
-- Perform DNS log analysis
-- Investigate failed DNS requests
-- Identify suspicious domains
-- Practice SPL queries
-- Improve SOC Analyst investigation skills
-  
-## Tools Used
+- Import DNS log dataset into Splunk
+- Analyze DNS events
+- Identify failed DNS lookups
+- Investigate suspicious domains
+- Analyze source IP activity
+- Understand DNS query types
+- Practice Splunk SPL queries
 
-- Splunk Enterprise 10.4
-- Windows 10
-- Sample DNS Log Dataset (CSV)
-- GitHub
+## Environment
 
-## Dataset
-
-The dataset contains sample DNS events used for learning Splunk SIEM.
-
-Fields included:
-
-- timestamp
-- src_ip
-- dest_ip
-- protocol
-- port
-- query
-- query_type
-- response_code
-- resolved_ip
-- note
+- SIEM: Splunk Enterprise 10.4.1
+- Dataset: Beginner DNS Logs
+- Index: dns_project
 
 ## Skills Demonstrated
 
-- Log Ingestion into Splunk
+- Splunk Search Processing Language (SPL)
 - DNS Log Analysis
-- SPL Query Writing
-- Source IP Investigation
-- DNS Response Code Analysis
-- Suspicious Domain Investigation
-- Basic Incident Investigation
+- Security Event Investigation
+- Source IP Analysis
+- Response Code Analysis
+- Threat Hunting
+- Basic SOC Investigation
 
-## SPL Queries Used
+## Investigation Summary
 
-### Display All Events
+- Total Events: **12**
+- Successful DNS Responses (NOERROR): **8**
+- Failed DNS Responses (NXDOMAIN): **4**
+- Most Queried Suspicious Domain: **abcxyz123fake.com**
+- Suspicious Source IP: **192.168.1.30**
 
-```spl
-source="Beginner_DNS_Logs.csv"
-```
+## Screenshots
 
-### Display Selected Fields
+### Dataset Imported
 
-```spl
-source="Beginner_DNS_Logs.csv"
-| table timestamp src_ip dest_ip protocol port query query_type response_code resolved_ip note
-```
+![Dataset](01_Dataset_Imported.png)
 
-### Count Total Events
+---
 
-```spl
-source="Beginner_DNS_Logs.csv"
-| stats count
-```
+### Important Fields
 
-### Count by Source IP
+![Fields](02_Important_Fields.png)
 
-```spl
-source="Beginner_DNS_Logs.csv"
-| stats count by src_ip
-| sort -count
-```
+---
 
-### Find Failed DNS Requests
+### Total Events
 
-```spl
-source="Beginner_DNS_Logs.csv"
-| search response_code="NXDOMAIN"
-```
+![Events](03_Total_Events.png)
 
-### Find Top Queried Domains
-
-```spl
-source="Beginner_DNS_Logs.csv"
-| top query
-```
-
-### Find Rare Domains
-
-```spl
-source="Beginner_DNS_Logs.csv"
-| rare query
-```
-
-### Remove Duplicate Queries
-
-```spl
-source="Beginner_DNS_Logs.csv"
-| dedup query
-```
-
-## Investigation Findings
-
-### Total DNS Events
-
-- 12 DNS events analyzed
-
-### DNS Response Summary
-
-- NOERROR: 8
-- NXDOMAIN: 4
+---
 
 ### Source IP Analysis
 
-The following source IPs generated multiple DNS requests:
+![Source IP](04_Source_IP_Analysis.png)
 
-- 192.168.1.10 (2 Requests)
-- 192.168.1.30 (2 Requests)
+---
 
-### Suspicious Observations
+### Response Code Analysis
 
-- Repeated DNS requests to **abcxyz123fake.com**
-- DNS lookup failed with **NXDOMAIN**
-- Suspicious-looking domain:
-  - xn--security-check-update123.com
-- Possible malware domain:
-  - random-malware-domain.biz
+![Response Code](05_Response_Code_Analysis.png)
 
-### Analyst Observation
+---
 
-Repeated failed DNS requests may indicate user error, application retry behavior, or potentially suspicious activity. Additional investigation is required before concluding the activity is malicious.
+### Failed DNS Requests
 
-## Incident Report
+![NXDOMAIN](06_Failed_DNS_Requests.png)
 
-### Incident Type
+---
 
-DNS Investigation
+### Top Queried Domains
 
-### Summary
+![Top Query](07_Top_Queried_Domains.png)
 
-A DNS log analysis was performed using Splunk Enterprise.
+---
 
-### Findings
+### Repeated Domains
 
-- 12 DNS events analyzed
-- 8 successful DNS lookups
-- 4 failed DNS lookups (NXDOMAIN)
+![Repeated](08_Repeated_Domains.png)
 
-Repeated requests were identified for **abcxyz123fake.com**.
+---
 
-The domain **random-malware-domain.biz** appeared suspicious and should be investigated further.
+### Source IP Investigation
 
-### Recommendation
+![Source Investigation](09_Source_IP_Investigation.png)
 
-Review endpoint activity, verify the requested domains using threat intelligence, and correlate findings with other security logs before determining whether the activity is malicious.
+---
+
+### Domain Investigation
+
+![Domain Investigation](10_Domain_Investigation.png)
+
+---
+
+### Query Type Analysis
+
+![Query Type](11_Query_Type_Analysis.png)
+
+---
 
 ## Conclusion
 
-This project demonstrates practical DNS log analysis using Splunk SIEM.
-
-Skills demonstrated include:
-
-- DNS log investigation
-- SPL query writing
-- Source IP analysis
-- DNS response analysis
-- Suspicious domain identification
-- Basic SOC incident investigation
-
-This project was completed as part of my SOC Analyst learning journey.
+This project demonstrates the use of Splunk Enterprise for DNS log investigation. The analysis identified normal DNS activity, failed DNS requests (NXDOMAIN), repeated domain queries, and suspicious domains that could indicate malicious activity. This project helped strengthen practical SOC Analyst skills using Splunk SPL.
