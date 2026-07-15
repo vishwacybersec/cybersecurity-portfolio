@@ -99,7 +99,7 @@ During this project, multiple Windows Security Event IDs were generated manually
 
 The Event Viewer interface used during the investigation.
 
-![Event Viewer](Screenshots/01-Event-Viewer.png)
+![Event Viewer](01-Event-Viewer.png)
 
 ---
 
@@ -107,7 +107,7 @@ The Event Viewer interface used during the investigation.
 
 Security logs containing authentication and account management events.
 
-![Security Logs](Screenshots/02-Security-Logs.png)
+![Security Logs](02-Security-Logs.png)
 
 ---
 
@@ -115,7 +115,7 @@ Security logs containing authentication and account management events.
 
 Verified successful authentication and analyzed logon information.
 
-![Event ID 4624](Screenshots/03-EventID-4624.png)
+![Event ID 4624](03-EventID-4624.png)
 
 ---
 
@@ -123,7 +123,7 @@ Verified successful authentication and analyzed logon information.
 
 Investigated failed authentication attempts and reviewed the failure reason.
 
-![Event ID 4625](Screenshots/04-EventID-4625.png)
+![Event ID 4625](04-EventID-4625.png)
 
 ---
 
@@ -131,7 +131,7 @@ Investigated failed authentication attempts and reviewed the failure reason.
 
 Generated and investigated a local user account creation event.
 
-![Event ID 4720](Screenshots/05-EventID-4720.png)
+![Event ID 4720](05-EventID-4720.png)
 
 ---
 
@@ -139,7 +139,7 @@ Generated and investigated a local user account creation event.
 
 Generated and investigated a local user account deletion event.
 
-![Event ID 4726](Screenshots/06-EventID-4726.png)
+![Event ID 4726](06-EventID-4726.png)
 
 ---
 
@@ -147,7 +147,7 @@ Generated and investigated a local user account deletion event.
 
 Investigated Sysmon Process Creation events to analyze executable name, command line, process ID, and execution time.
 
-![Sysmon Event ID 1](Screenshots/07-Sysmon-EventID-1.png)
+![Sysmon Event ID 1](/07-Sysmon-EventID-1.png)
 
 ---
 
@@ -155,7 +155,7 @@ Investigated Sysmon Process Creation events to analyze executable name, command 
 
 Investigated Sysmon Process Termination events to analyze terminated processes and process lifecycle.
 
-![Sysmon Event ID 5](Screenshots/08-Sysmon-EventID-5.png)
+![Sysmon Event ID 5](08-Sysmon-EventID-5.png)
 
 ---
 
