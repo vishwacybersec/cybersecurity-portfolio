@@ -1,0 +1,751 @@
+_time,host,user,EventCode,src_ip,dest_ip,logon_type,status,process_name,new_account,group_name,description
+2026-07-22 08:00:37,WEB01,fD'souza,4776,192.168.1.112,192.168.1.14,,0x0,,,,The domain controller attempted to validate credentials for fD'souza (NTLM to WEB01)
+2026-07-22 08:02:21,DC01,itadmin2,4724,192.168.1.10,192.168.1.10,,0x0,,,,An attempt was made to reset tnayak's password by itadmin2
+2026-07-22 08:06:03,FS01,svc_sql,4624,192.168.1.11,192.168.1.11,5,0x0,,,,An account was successfully logged on: svc_sql service logon (SQL service)
+2026-07-22 08:06:24,DC01,mkapoor,4768,192.168.1.103,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for mkapoor
+2026-07-22 08:06:26,WS-03,mkapoor,4624,192.168.1.103,192.168.1.103,2,0x0,,,,An account was successfully logged on: mkapoor at WS-03
+2026-07-22 08:08:50,WS-19,SYSTEM,4698,192.168.1.119,192.168.1.119,,0x0,C:\Windows\System32\taskeng.exe,,,A scheduled task was created by SYSTEM on WS-19 (routine maintenance task)
+2026-07-22 08:11:05,WS-17,itadmin1,4698,192.168.1.117,192.168.1.117,,0x0,C:\Windows\System32\taskeng.exe,,,A scheduled task was created by itadmin1 on WS-17 (routine maintenance task)
+2026-07-22 08:12:29,FS01,itadmin2,4688,192.168.1.11,192.168.1.11,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin2: powershell.exe -Command ""Restart-Service -Name Spooler"""
+2026-07-22 08:22:46,DC01,itadmin3,4724,192.168.1.10,192.168.1.10,,0x0,,,,An attempt was made to reset itadmin2's password by itadmin3
+2026-07-22 08:23:17,DC01,mreddy,4768,192.168.1.111,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for mreddy
+2026-07-22 08:23:19,WS-11,mreddy,4624,192.168.1.111,192.168.1.111,2,0x0,,,,An account was successfully logged on: mreddy at WS-11
+2026-07-22 08:27:04,WS-11,mreddy,4625,192.168.1.111,192.168.1.111,2,0xC000006A,,,,An account failed to log on: mreddy at WS-11 (bad password typo)
+2026-07-22 08:28:00,DC01,itadmin1,4768,192.168.1.102,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for itadmin1
+2026-07-22 08:28:02,WS-02,itadmin1,4624,192.168.1.102,192.168.1.102,2,0x0,,,,An account was successfully logged on: itadmin1 at WS-02
+2026-07-22 08:28:15,WS-03,itadmin1,4698,192.168.1.103,192.168.1.103,,0x0,C:\Windows\System32\taskeng.exe,,,A scheduled task was created by itadmin1 on WS-03 (routine maintenance task)
+2026-07-22 08:28:42,FS02,vrao,4624,192.168.1.108,192.168.1.12,3,0x0,,,,An account was successfully logged on: vrao network logon to FS02 share access
+2026-07-22 08:29:04,DC01,lfernandes,4768,192.168.1.119,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for lfernandes
+2026-07-22 08:29:06,WS-19,lfernandes,4624,192.168.1.119,192.168.1.119,2,0x0,,,,An account was successfully logged on: lfernandes at WS-19
+2026-07-22 08:29:07,DC01,Administrator,4672,192.168.1.10,192.168.1.10,,,,,,Special privileges assigned to new logon: Administrator (Administrators group) on DC01
+2026-07-22 08:31:20,WS-11,itadmin2,4688,192.168.1.111,192.168.1.111,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin2: powershell.exe -Command ""Get-Service | Where-Object {$_.Status -eq 'Stopped'}"""
+2026-07-22 08:31:37,WS-06,itadmin2,4698,192.168.1.106,192.168.1.106,,0x0,C:\Windows\System32\taskeng.exe,,,A scheduled task was created by itadmin2 on WS-06 (routine maintenance task)
+2026-07-22 08:31:42,FS02,hshetty,4624,192.168.1.105,192.168.1.12,3,0x0,,,,An account was successfully logged on: hshetty network logon to FS02 share access
+2026-07-22 08:33:59,DC01,cwilliams,4768,192.168.1.102,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for cwilliams
+2026-07-22 08:34:01,WS-02,cwilliams,4624,192.168.1.102,192.168.1.102,2,0x0,,,,An account was successfully logged on: cwilliams at WS-02
+2026-07-22 08:36:24,DC01,rmehta,4768,192.168.1.115,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for rmehta
+2026-07-22 08:36:26,WS-15,rmehta,4624,192.168.1.115,192.168.1.115,2,0x0,,,,An account was successfully logged on: rmehta at WS-15
+2026-07-22 08:42:17,DC01,itadmin1,4724,192.168.1.10,192.168.1.10,,0x0,,,,An attempt was made to reset rbhat's password by itadmin1
+2026-07-22 08:43:56,DC01,itadmin2,4768,192.168.1.112,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for itadmin2
+2026-07-22 08:43:58,WS-12,itadmin2,4624,192.168.1.112,192.168.1.112,2,0x0,,,,An account was successfully logged on: itadmin2 at WS-12
+2026-07-22 08:46:12,DC01,itadmin2,4724,192.168.1.10,192.168.1.10,,0x0,,,,An attempt was made to reset dprasad's password by itadmin2
+2026-07-22 08:47:40,FS02,svc_scan,4624,192.168.1.12,192.168.1.12,3,0x0,,,,An account was successfully logged on: svc_scan network logon for scheduled scan job
+2026-07-22 08:48:23,DC01,fD'souza,4768,192.168.1.112,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for fD'souza
+2026-07-22 08:48:25,WS-12,fD'souza,4624,192.168.1.112,192.168.1.112,2,0x0,,,,An account was successfully logged on: fD'souza at WS-12
+2026-07-22 08:48:28,WS-14,SYSTEM,4698,192.168.1.114,192.168.1.114,,0x0,C:\Windows\System32\taskeng.exe,,,A scheduled task was created by SYSTEM on WS-14 (routine maintenance task)
+2026-07-22 08:49:26,DC01,rmehta,4769,192.168.1.115,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for rmehta to access FS01
+2026-07-22 08:49:27,FS01,rmehta,4624,192.168.1.115,192.168.1.11,3,0x0,,,,An account was successfully logged on: rmehta network logon to FS01
+2026-07-22 08:52:10,DC01,pnair,4768,192.168.1.107,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for pnair
+2026-07-22 08:52:12,WS-07,pnair,4624,192.168.1.107,192.168.1.107,2,0x0,,,,An account was successfully logged on: pnair at WS-07
+2026-07-22 08:53:08,FS01,itadmin1,4672,192.168.1.11,192.168.1.11,,,,,,Special privileges assigned to new logon: itadmin1 (Administrators group) on FS01
+2026-07-22 08:55:13,DC01,csubramaniam,4768,192.168.1.116,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for csubramaniam
+2026-07-22 08:55:15,WS-16,csubramaniam,4624,192.168.1.116,192.168.1.116,2,0x0,,,,An account was successfully logged on: csubramaniam at WS-16
+2026-07-22 08:55:26,FS01,svc_sql,4624,192.168.1.11,192.168.1.11,5,0x0,,,,An account was successfully logged on: svc_sql service logon (SQL service)
+2026-07-22 08:56:19,DC01,mreddy,4769,192.168.1.111,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for mreddy to access FS02
+2026-07-22 08:56:20,FS02,mreddy,4624,192.168.1.111,192.168.1.12,3,0x0,,,,An account was successfully logged on: mreddy network logon to FS02
+2026-07-22 08:59:48,DC01,svarma,4768,192.168.1.113,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for svarma
+2026-07-22 08:59:50,WS-13,svarma,4624,192.168.1.113,192.168.1.113,2,0x0,,,,An account was successfully logged on: svarma at WS-13
+2026-07-22 09:01:05,WS-02,itadmin1,4688,192.168.1.102,192.168.1.102,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin1: powershell.exe -Command ""Update-Help -Force"""
+2026-07-22 09:05:28,DC01,itadmin2,4768,192.168.1.112,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for itadmin2
+2026-07-22 09:05:30,WS-12,itadmin2,4624,192.168.1.112,192.168.1.112,2,0x0,,,,An account was successfully logged on: itadmin2 at WS-12
+2026-07-22 09:09:23,WS-10,pchandra,4625,192.168.1.110,192.168.1.110,2,0xC000006A,,,,An account failed to log on: pchandra at WS-10 (bad password typo)
+2026-07-22 09:13:19,FS01,apatel,4624,192.168.1.120,192.168.1.11,3,0x0,,,,An account was successfully logged on: apatel network logon to FS01 share access
+2026-07-22 09:13:47,DC01,itadmin3,4672,192.168.1.10,192.168.1.10,,,,,,Special privileges assigned to new logon: itadmin3 (Administrators group) on DC01
+2026-07-22 09:15:08,FS01,itadmin2,4672,192.168.1.11,192.168.1.11,,,,,,Special privileges assigned to new logon: itadmin2 (Administrators group) on FS01
+2026-07-22 09:15:49,WS-09,itadmin2,4698,192.168.1.109,192.168.1.109,,0x0,C:\Windows\System32\taskeng.exe,,,A scheduled task was created by itadmin2 on WS-09 (routine maintenance task)
+2026-07-22 09:17:44,FS01,pnair,4624,192.168.1.107,192.168.1.11,3,0x0,,,,An account was successfully logged on: pnair network logon to FS01 share access
+2026-07-22 09:17:59,WS-20,itadmin1,4698,192.168.1.120,192.168.1.120,,0x0,C:\Windows\System32\taskeng.exe,,,A scheduled task was created by itadmin1 on WS-20 (routine maintenance task)
+2026-07-22 09:19:30,DC01,sgowda,4768,192.168.1.106,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for sgowda
+2026-07-22 09:19:32,WS-06,sgowda,4624,192.168.1.106,192.168.1.106,2,0x0,,,,An account was successfully logged on: sgowda at WS-06
+2026-07-22 09:26:08,WS-07,itadmin2,4688,192.168.1.107,192.168.1.107,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin2: powershell.exe -Command ""Get-Disk | Get-Volume"""
+2026-07-22 09:26:12,WS-19,lfernandes,4625,192.168.1.119,192.168.1.119,2,0xC000006A,,,,An account failed to log on: lfernandes at WS-19 (bad password typo)
+2026-07-22 09:27:01,DC01,cwilliams,4769,192.168.1.102,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for cwilliams to access FS02
+2026-07-22 09:27:02,FS02,cwilliams,4624,192.168.1.102,192.168.1.12,3,0x0,,,,An account was successfully logged on: cwilliams network logon to FS02
+2026-07-22 09:27:51,FS02,gnair,4624,192.168.1.107,192.168.1.12,3,0x0,,,,An account was successfully logged on: gnair network logon to FS02 share access
+2026-07-22 09:28:12,DC01,vraghunathan,4768,192.168.1.114,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for vraghunathan
+2026-07-22 09:28:14,WS-14,vraghunathan,4624,192.168.1.114,192.168.1.114,2,0x0,,,,An account was successfully logged on: vraghunathan at WS-14
+2026-07-22 09:28:50,DC01,svarma,4769,192.168.1.113,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for svarma to access FS02
+2026-07-22 09:28:51,FS02,svarma,4624,192.168.1.113,192.168.1.12,3,0x0,,,,An account was successfully logged on: svarma network logon to FS02
+2026-07-22 09:29:27,WS-16,SYSTEM,4698,192.168.1.116,192.168.1.116,,0x0,C:\Windows\System32\taskeng.exe,,,A scheduled task was created by SYSTEM on WS-16 (routine maintenance task)
+2026-07-22 09:32:06,FS01,itadmin3,4688,192.168.1.11,192.168.1.11,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin3: powershell.exe -Command ""Get-Service | Where-Object {$_.Status -eq 'Stopped'}"""
+2026-07-22 09:32:47,WS-05,itadmin1,4688,192.168.1.105,192.168.1.105,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin1: powershell.exe -Command ""Get-Service | Where-Object {$_.Status -eq 'Stopped'}"""
+2026-07-22 09:38:14,DC01,vraghunathan,4769,192.168.1.114,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for vraghunathan to access FS01
+2026-07-22 09:38:15,FS01,vraghunathan,4624,192.168.1.114,192.168.1.11,3,0x0,,,,An account was successfully logged on: vraghunathan network logon to FS01
+2026-07-22 09:38:38,DC01,Administrator,4672,192.168.1.10,192.168.1.10,,,,,,Special privileges assigned to new logon: Administrator (Administrators group) on DC01
+2026-07-22 09:39:17,FS01,apatel,4624,192.168.1.120,192.168.1.11,3,0x0,,,,An account was successfully logged on: apatel network logon to FS01 share access
+2026-07-22 09:42:00,FS02,itadmin1,4688,192.168.1.12,192.168.1.12,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin1: powershell.exe -Command ""Restart-Service -Name Spooler"""
+2026-07-22 09:42:04,WEB01,csubramaniam,4776,192.168.1.116,192.168.1.14,,0x0,,,,The domain controller attempted to validate credentials for csubramaniam (NTLM to WEB01)
+2026-07-22 09:43:11,DC01,itadmin1,4768,192.168.1.102,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for itadmin1
+2026-07-22 09:43:13,WS-02,itadmin1,4624,192.168.1.102,192.168.1.102,2,0x0,,,,An account was successfully logged on: itadmin1 at WS-02
+2026-07-22 09:46:07,DC01,nkulkarni,4768,192.168.1.117,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for nkulkarni
+2026-07-22 09:46:09,WS-17,nkulkarni,4624,192.168.1.117,192.168.1.117,2,0x0,,,,An account was successfully logged on: nkulkarni at WS-17
+2026-07-22 09:48:31,WEB01,svc_web,4624,192.168.1.14,192.168.1.14,5,0x0,,,,An account was successfully logged on: svc_web service logon (IIS app pool)
+2026-07-22 09:48:54,FS01,ychawla,4624,192.168.1.117,192.168.1.11,3,0x0,,,,An account was successfully logged on: ychawla network logon to FS01 share access
+2026-07-22 09:49:10,DC01,kverma,4768,192.168.1.105,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for kverma
+2026-07-22 09:49:12,WS-05,kverma,4624,192.168.1.105,192.168.1.105,2,0x0,,,,An account was successfully logged on: kverma at WS-05
+2026-07-22 09:52:01,DC01,hshetty,4768,192.168.1.105,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for hshetty
+2026-07-22 09:52:03,FS02,njoshi,4624,192.168.1.110,192.168.1.12,3,0x0,,,,An account was successfully logged on: njoshi network logon to FS02 share access
+2026-07-22 09:52:03,WS-05,hshetty,4624,192.168.1.105,192.168.1.105,2,0x0,,,,An account was successfully logged on: hshetty at WS-05
+2026-07-22 09:52:14,DC01,itadmin2,4768,192.168.1.112,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for itadmin2
+2026-07-22 09:52:16,WS-12,itadmin2,4624,192.168.1.112,192.168.1.112,2,0x0,,,,An account was successfully logged on: itadmin2 at WS-12
+2026-07-22 09:53:08,WS-09,itadmin1,4688,192.168.1.109,192.168.1.109,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin1: powershell.exe -Command ""Get-ADUser -Filter * | Export-Csv report.csv"""
+2026-07-22 09:54:06,DC01,lfernandes,4769,192.168.1.119,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for lfernandes to access FS02
+2026-07-22 09:54:07,FS02,lfernandes,4624,192.168.1.119,192.168.1.12,3,0x0,,,,An account was successfully logged on: lfernandes network logon to FS02
+2026-07-22 09:57:10,DC01,rmehta,4768,192.168.1.115,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for rmehta
+2026-07-22 09:57:12,WS-15,rmehta,4624,192.168.1.115,192.168.1.115,2,0x0,,,,An account was successfully logged on: rmehta at WS-15
+2026-07-22 09:58:20,FS01,itadmin2,4672,192.168.1.11,192.168.1.11,,,,,,Special privileges assigned to new logon: itadmin2 (Administrators group) on FS01
+2026-07-22 09:59:06,WEB01,csubramaniam,4776,192.168.1.116,192.168.1.14,,0x0,,,,The domain controller attempted to validate credentials for csubramaniam (NTLM to WEB01)
+2026-07-22 10:00:02,BKSRV01,service_backup,4624,192.168.1.13,192.168.1.13,5,0x0,,,,An account was successfully logged on: service_backup service logon (batch) on BKSRV01
+2026-07-22 10:00:05,BKSRV01,service_backup,4688,192.168.1.13,192.168.1.13,,0x0,C:\Windows\System32\wbengine.exe,,,A new process was created by service_backup: wbengine.exe (scheduled backup job)
+2026-07-22 10:00:15,WS-16,csubramaniam,4634,192.168.1.116,192.168.1.116,2,,,,,An account was logged off: csubramaniam at WS-16
+2026-07-22 10:01:02,FS01,service_backup,4624,192.168.1.13,192.168.1.11,3,0x0,,,,An account was successfully logged on: service_backup network logon to FS01 for backup
+2026-07-22 10:04:19,WEB01,nkulkarni,4776,192.168.1.117,192.168.1.14,,0x0,,,,The domain controller attempted to validate credentials for nkulkarni (NTLM to WEB01)
+2026-07-22 10:04:36,FS02,kverma,4624,192.168.1.105,192.168.1.12,3,0x0,,,,An account was successfully logged on: kverma network logon to FS02 share access
+2026-07-22 10:06:18,WEB01,lfernandes,4776,192.168.1.119,192.168.1.14,,0x0,,,,The domain controller attempted to validate credentials for lfernandes (NTLM to WEB01)
+2026-07-22 10:08:14,WS-10,itadmin3,4688,192.168.1.110,192.168.1.110,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin3: powershell.exe -Command ""Restart-Service -Name Spooler"""
+2026-07-22 10:09:07,BKSRV01,service_backup,4624,192.168.1.13,192.168.1.13,5,0x0,,,,An account was successfully logged on: service_backup service logon (batch) on BKSRV01
+2026-07-22 10:09:10,BKSRV01,service_backup,4688,192.168.1.13,192.168.1.13,,0x0,C:\Windows\System32\wbengine.exe,,,A new process was created by service_backup: wbengine.exe (scheduled backup job)
+2026-07-22 10:10:07,FS02,service_backup,4624,192.168.1.13,192.168.1.12,3,0x0,,,,An account was successfully logged on: service_backup network logon to FS02 for backup
+2026-07-22 10:10:32,DC01,sgowda,4769,192.168.1.106,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for sgowda to access FS01
+2026-07-22 10:10:33,FS01,sgowda,4624,192.168.1.106,192.168.1.11,3,0x0,,,,An account was successfully logged on: sgowda network logon to FS01
+2026-07-22 10:10:35,WEB01,svc_web,4624,192.168.1.14,192.168.1.14,5,0x0,,,,An account was successfully logged on: svc_web service logon (IIS app pool)
+2026-07-22 10:12:13,WS-02,itadmin3,4688,192.168.1.102,192.168.1.102,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin3: powershell.exe -Command ""Restart-Service -Name Spooler"""
+2026-07-22 10:12:25,DC01,fD'souza,4769,192.168.1.112,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for fD'souza to access FS02
+2026-07-22 10:12:26,FS02,fD'souza,4624,192.168.1.112,192.168.1.12,3,0x0,,,,An account was successfully logged on: fD'souza network logon to FS02
+2026-07-22 10:12:35,DC01,nkulkarni,4768,192.168.1.117,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for nkulkarni
+2026-07-22 10:12:37,WS-17,nkulkarni,4624,192.168.1.117,192.168.1.117,2,0x0,,,,An account was successfully logged on: nkulkarni at WS-17
+2026-07-22 10:13:49,FS02,svc_scan,4624,192.168.1.12,192.168.1.12,3,0x0,,,,An account was successfully logged on: svc_scan network logon for scheduled scan job
+2026-07-22 10:16:05,DC01,vrao,4768,192.168.1.108,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for vrao
+2026-07-22 10:16:07,WS-08,vrao,4624,192.168.1.108,192.168.1.108,2,0x0,,,,An account was successfully logged on: vrao at WS-08
+2026-07-22 10:16:43,FS01,itadmin2,4698,192.168.1.11,192.168.1.11,,0x0,C:\Windows\System32\taskeng.exe,,,A scheduled task was created by itadmin2 on FS01 (routine maintenance task)
+2026-07-22 10:17:50,DC01,jthomas,4768,192.168.1.118,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for jthomas
+2026-07-22 10:17:50,DC01,ychawla,4768,192.168.1.117,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for ychawla
+2026-07-22 10:17:52,WS-18,jthomas,4624,192.168.1.118,192.168.1.118,2,0x0,,,,An account was successfully logged on: jthomas at WS-18
+2026-07-22 10:17:52,WS-17,ychawla,4624,192.168.1.117,192.168.1.117,2,0x0,,,,An account was successfully logged on: ychawla at WS-17
+2026-07-22 10:19:01,WS-14,itadmin1,4688,192.168.1.114,192.168.1.114,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin1: powershell.exe -Command ""Get-Disk | Get-Volume"""
+2026-07-22 10:19:24,FS02,gnair,4624,192.168.1.107,192.168.1.12,3,0x0,,,,An account was successfully logged on: gnair network logon to FS02 share access
+2026-07-22 10:20:50,DC01,itadmin2,4724,192.168.1.10,192.168.1.10,,0x0,,,,An attempt was made to reset bshetty's password by itadmin2
+2026-07-22 10:21:04,DC01,pchandra,4768,192.168.1.110,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for pchandra
+2026-07-22 10:21:06,WS-10,pchandra,4624,192.168.1.110,192.168.1.110,2,0x0,,,,An account was successfully logged on: pchandra at WS-10
+2026-07-22 10:21:13,DC01,itadmin1,4769,192.168.1.102,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for itadmin1 to access FS02
+2026-07-22 10:21:14,FS02,itadmin1,4624,192.168.1.102,192.168.1.12,3,0x0,,,,An account was successfully logged on: itadmin1 network logon to FS02
+2026-07-22 10:22:57,DC01,itadmin2,4724,192.168.1.10,192.168.1.10,,0x0,,,,An attempt was made to reset nkulkarni's password by itadmin2
+2026-07-22 10:26:17,WS-09,ssharma,4625,192.168.1.109,192.168.1.109,2,0xC000006A,,,,An account failed to log on: ssharma at WS-09 (bad password typo)
+2026-07-22 10:28:11,DC01,tshah,4768,192.168.1.114,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for tshah
+2026-07-22 10:28:13,WS-14,tshah,4624,192.168.1.114,192.168.1.114,2,0x0,,,,An account was successfully logged on: tshah at WS-14
+2026-07-22 10:31:10,BKSRV01,backup_admin,4624,192.168.1.13,192.168.1.13,5,0x0,,,,An account was successfully logged on: backup_admin service logon (batch) on BKSRV01
+2026-07-22 10:31:13,BKSRV01,backup_admin,4688,192.168.1.13,192.168.1.13,,0x0,C:\Windows\System32\wbengine.exe,,,A new process was created by backup_admin: wbengine.exe (scheduled backup job)
+2026-07-22 10:31:33,DC01,rmehta,4768,192.168.1.115,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for rmehta
+2026-07-22 10:31:35,WS-15,rmehta,4624,192.168.1.115,192.168.1.115,2,0x0,,,,An account was successfully logged on: rmehta at WS-15
+2026-07-22 10:32:10,FS02,backup_admin,4624,192.168.1.13,192.168.1.12,3,0x0,,,,An account was successfully logged on: backup_admin network logon to FS02 for backup
+2026-07-22 10:32:30,DC01,itadmin2,4769,192.168.1.112,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for itadmin2 to access FS02
+2026-07-22 10:32:31,FS02,itadmin2,4624,192.168.1.112,192.168.1.12,3,0x0,,,,An account was successfully logged on: itadmin2 network logon to FS02
+2026-07-22 10:34:26,DC01,itadmin1,4768,192.168.1.102,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for itadmin1
+2026-07-22 10:34:28,WS-02,itadmin1,4624,192.168.1.102,192.168.1.102,2,0x0,,,,An account was successfully logged on: itadmin1 at WS-02
+2026-07-22 10:34:37,DC01,nkulkarni,4769,192.168.1.117,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for nkulkarni to access FS01
+2026-07-22 10:34:38,FS01,nkulkarni,4624,192.168.1.117,192.168.1.11,3,0x0,,,,An account was successfully logged on: nkulkarni network logon to FS01
+2026-07-22 10:34:55,DC01,mkapoor,4768,192.168.1.103,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for mkapoor
+2026-07-22 10:34:57,WS-03,mkapoor,4624,192.168.1.103,192.168.1.103,2,0x0,,,,An account was successfully logged on: mkapoor at WS-03
+2026-07-22 10:36:03,FS01,itadmin2,4624,192.168.1.112,192.168.1.11,3,0x0,,,,An account was successfully logged on: itadmin2 network logon to FS01 share access
+2026-07-22 10:37:09,DC01,nkulkarni,4769,192.168.1.117,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for nkulkarni to access FS01
+2026-07-22 10:37:10,FS01,nkulkarni,4624,192.168.1.117,192.168.1.11,3,0x0,,,,An account was successfully logged on: nkulkarni network logon to FS01
+2026-07-22 10:40:56,FS01,svc_sql,4624,192.168.1.11,192.168.1.11,5,0x0,,,,An account was successfully logged on: svc_sql service logon (SQL service)
+2026-07-22 10:41:10,WEB01,svc_web,4624,192.168.1.14,192.168.1.14,5,0x0,,,,An account was successfully logged on: svc_web service logon (IIS app pool)
+2026-07-22 10:41:43,DC01,gnair,4768,192.168.1.107,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for gnair
+2026-07-22 10:41:45,WS-07,gnair,4624,192.168.1.107,192.168.1.107,2,0x0,,,,An account was successfully logged on: gnair at WS-07
+2026-07-22 10:42:18,FS02,csubramaniam,4624,192.168.1.116,192.168.1.12,3,0x0,,,,An account was successfully logged on: csubramaniam network logon to FS02 share access
+2026-07-22 10:45:22,DC01,hshetty,4768,192.168.1.105,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for hshetty
+2026-07-22 10:45:24,WS-05,hshetty,4624,192.168.1.105,192.168.1.105,2,0x0,,,,An account was successfully logged on: hshetty at WS-05
+2026-07-22 10:46:54,FS02,svc_scan,4624,192.168.1.12,192.168.1.12,3,0x0,,,,An account was successfully logged on: svc_scan network logon for scheduled scan job
+2026-07-22 10:46:56,DC01,itadmin2,4768,192.168.1.112,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for itadmin2
+2026-07-22 10:46:58,WS-12,itadmin2,4624,192.168.1.112,192.168.1.112,2,0x0,,,,An account was successfully logged on: itadmin2 at WS-12
+2026-07-22 10:48:23,DC01,jthomas,4768,192.168.1.118,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for jthomas
+2026-07-22 10:48:25,WS-18,jthomas,4624,192.168.1.118,192.168.1.118,2,0x0,,,,An account was successfully logged on: jthomas at WS-18
+2026-07-22 10:48:36,WS-05,kverma,4625,192.168.1.105,192.168.1.105,2,0xC000006A,,,,An account failed to log on: kverma at WS-05 (bad password typo)
+2026-07-22 10:48:46,WS-04,aiyer,4625,192.168.1.104,192.168.1.104,2,0xC000006A,,,,An account failed to log on: aiyer at WS-04 (bad password typo)
+2026-07-22 10:49:04,FS01,pnair,4624,192.168.1.107,192.168.1.11,3,0x0,,,,An account was successfully logged on: pnair network logon to FS01 share access
+2026-07-22 10:51:55,WS-10,itadmin2,4688,192.168.1.110,192.168.1.110,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin2: powershell.exe -Command ""Get-Disk | Get-Volume"""
+2026-07-22 10:52:18,WS-18,itadmin2,4688,192.168.1.118,192.168.1.118,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin2: powershell.exe -Command ""Get-Disk | Get-Volume"""
+2026-07-22 10:52:45,WS-01,dprasad,4625,192.168.1.101,192.168.1.101,2,0xC000006A,,,,An account failed to log on: dprasad at WS-01 (bad password typo)
+2026-07-22 10:54:27,FS02,itadmin2,4688,192.168.1.12,192.168.1.12,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin2: powershell.exe -Command ""Set-ADAccountPassword -Identity user -Reset"""
+2026-07-22 10:55:12,DC01,kverma,4769,192.168.1.105,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for kverma to access FS01
+2026-07-22 10:55:13,FS01,kverma,4624,192.168.1.105,192.168.1.11,3,0x0,,,,An account was successfully logged on: kverma network logon to FS01
+2026-07-22 10:57:11,DC01,mkapoor,4768,192.168.1.103,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for mkapoor
+2026-07-22 10:57:13,WS-03,mkapoor,4624,192.168.1.103,192.168.1.103,2,0x0,,,,An account was successfully logged on: mkapoor at WS-03
+2026-07-22 11:00:19,DC01,mreddy,4768,192.168.1.111,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for mreddy
+2026-07-22 11:00:21,WS-11,mreddy,4624,192.168.1.111,192.168.1.111,2,0x0,,,,An account was successfully logged on: mreddy at WS-11
+2026-07-22 11:02:01,WS-05,hshetty,4625,192.168.1.105,192.168.1.105,2,0xC000006A,,,,An account failed to log on: hshetty at WS-05 (bad password typo)
+2026-07-22 11:05:52,DC01,ychawla,4769,192.168.1.117,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for ychawla to access FS02
+2026-07-22 11:05:53,FS02,ychawla,4624,192.168.1.117,192.168.1.12,3,0x0,,,,An account was successfully logged on: ychawla network logon to FS02
+2026-07-22 11:09:09,WS-18,itadmin2,4688,192.168.1.118,192.168.1.118,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin2: powershell.exe -Command ""Restart-Service -Name Spooler"""
+2026-07-22 11:10:05,DC01,itadmin2,4724,192.168.1.10,192.168.1.10,,0x0,,,,An attempt was made to reset cwilliams's password by itadmin2
+2026-07-22 11:11:19,DC01,vrao,4768,192.168.1.108,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for vrao
+2026-07-22 11:11:21,WS-08,vrao,4624,192.168.1.108,192.168.1.108,2,0x0,,,,An account was successfully logged on: vrao at WS-08
+2026-07-22 11:11:50,WS-19,rsingh,4625,192.168.1.119,192.168.1.119,2,0xC000006A,,,,An account failed to log on: rsingh at WS-19 (bad password typo)
+2026-07-22 11:12:23,WS-02,cwilliams,4625,192.168.1.102,192.168.1.102,2,0xC000006A,,,,An account failed to log on: cwilliams at WS-02 (bad password typo)
+2026-07-22 11:13:16,DC01,itadmin2,4769,192.168.1.112,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for itadmin2 to access FS02
+2026-07-22 11:13:17,FS02,itadmin2,4624,192.168.1.112,192.168.1.12,3,0x0,,,,An account was successfully logged on: itadmin2 network logon to FS02
+2026-07-22 11:13:23,FS01,svc_sql,4624,192.168.1.11,192.168.1.11,5,0x0,,,,An account was successfully logged on: svc_sql service logon (SQL service)
+2026-07-22 11:15:08,WEB01,bshetty,4776,192.168.1.113,192.168.1.14,,0x0,,,,The domain controller attempted to validate credentials for bshetty (NTLM to WEB01)
+2026-07-22 11:15:59,DC01,itadmin3,4672,192.168.1.10,192.168.1.10,,,,,,Special privileges assigned to new logon: itadmin3 (Administrators group) on DC01
+2026-07-22 11:20:25,WS-17,nkulkarni,4625,192.168.1.117,192.168.1.117,2,0xC000006A,,,,An account failed to log on: nkulkarni at WS-17 (bad password typo)
+2026-07-22 11:22:45,DC01,gnair,4769,192.168.1.107,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for gnair to access FS01
+2026-07-22 11:22:46,FS01,gnair,4624,192.168.1.107,192.168.1.11,3,0x0,,,,An account was successfully logged on: gnair network logon to FS01
+2026-07-22 11:23:28,DC01,kverma,4768,192.168.1.105,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for kverma
+2026-07-22 11:23:30,WS-05,kverma,4624,192.168.1.105,192.168.1.105,2,0x0,,,,An account was successfully logged on: kverma at WS-05
+2026-07-22 11:27:06,DC01,pchandra,4769,192.168.1.110,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for pchandra to access FS01
+2026-07-22 11:27:07,FS01,pchandra,4624,192.168.1.110,192.168.1.11,3,0x0,,,,An account was successfully logged on: pchandra network logon to FS01
+2026-07-22 11:29:21,DC01,mreddy,4769,192.168.1.111,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for mreddy to access FS02
+2026-07-22 11:29:22,FS02,mreddy,4624,192.168.1.111,192.168.1.12,3,0x0,,,,An account was successfully logged on: mreddy network logon to FS02
+2026-07-22 11:31:30,WS-12,itadmin2,4634,192.168.1.112,192.168.1.112,2,,,,,An account was logged off: itadmin2 at WS-12
+2026-07-22 11:31:52,DC01,jthomas,4769,192.168.1.118,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for jthomas to access FS01
+2026-07-22 11:31:53,FS01,jthomas,4624,192.168.1.118,192.168.1.11,3,0x0,,,,An account was successfully logged on: jthomas network logon to FS01
+2026-07-22 11:37:11,FS01,dghosh,4625,192.168.1.107,192.168.1.11,3,0xC000006A,,,,An account failed to log on: dghosh from 192.168.1.107 to FS01
+2026-07-22 11:37:15,WEB01,pnair,4776,192.168.1.107,192.168.1.14,,0x0,,,,The domain controller attempted to validate credentials for pnair (NTLM to WEB01)
+2026-07-22 11:37:29,FS01,dghosh,4625,192.168.1.107,192.168.1.11,3,0xC000006A,,,,An account failed to log on: dghosh from 192.168.1.107 to FS01
+2026-07-22 11:37:47,FS01,dghosh,4625,192.168.1.107,192.168.1.11,3,0xC000006A,,,,An account failed to log on: dghosh from 192.168.1.107 to FS01
+2026-07-22 11:37:50,DC01,itadmin2,4768,192.168.1.112,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for itadmin2
+2026-07-22 11:37:52,WS-12,itadmin2,4624,192.168.1.112,192.168.1.112,2,0x0,,,,An account was successfully logged on: itadmin2 at WS-12
+2026-07-22 11:38:05,FS01,dghosh,4625,192.168.1.107,192.168.1.11,3,0xC000006A,,,,An account failed to log on: dghosh from 192.168.1.107 to FS01
+2026-07-22 11:38:23,FS01,dghosh,4625,192.168.1.107,192.168.1.11,3,0xC000006A,,,,An account failed to log on: dghosh from 192.168.1.107 to FS01
+2026-07-22 11:38:38,FS01,sgowda,4624,192.168.1.106,192.168.1.11,3,0x0,,,,An account was successfully logged on: sgowda network logon to FS01 share access
+2026-07-22 11:38:41,FS01,dghosh,4625,192.168.1.107,192.168.1.11,3,0xC000006A,,,,An account failed to log on: dghosh from 192.168.1.107 to FS01
+2026-07-22 11:38:59,FS01,dghosh,4625,192.168.1.107,192.168.1.11,3,0xC000006A,,,,An account failed to log on: dghosh from 192.168.1.107 to FS01
+2026-07-22 11:39:17,FS01,dghosh,4625,192.168.1.107,192.168.1.11,3,0xC000006A,,,,An account failed to log on: dghosh from 192.168.1.107 to FS01
+2026-07-22 11:39:24,DC01,hshetty,4769,192.168.1.105,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for hshetty to access FS01
+2026-07-22 11:39:25,FS01,hshetty,4624,192.168.1.105,192.168.1.11,3,0x0,,,,An account was successfully logged on: hshetty network logon to FS01
+2026-07-22 11:39:35,FS01,dghosh,4625,192.168.1.107,192.168.1.11,3,0xC000006A,,,,An account failed to log on: dghosh from 192.168.1.107 to FS01
+2026-07-22 11:39:57,WS-03,mkapoor,4634,192.168.1.103,192.168.1.103,2,,,,,An account was logged off: mkapoor at WS-03
+2026-07-22 11:40:23,FS01,dghosh,4624,192.168.1.107,192.168.1.11,3,0x0,,,,An account was successfully logged on: dghosh network logon to FS01 from 192.168.1.107
+2026-07-22 11:46:16,BKSRV01,service_backup,4624,192.168.1.13,192.168.1.13,5,0x0,,,,An account was successfully logged on: service_backup service logon (batch) on BKSRV01
+2026-07-22 11:46:19,BKSRV01,service_backup,4688,192.168.1.13,192.168.1.13,,0x0,C:\Windows\System32\wbengine.exe,,,A new process was created by service_backup: wbengine.exe (scheduled backup job)
+2026-07-22 11:47:16,FS01,service_backup,4624,192.168.1.13,192.168.1.11,3,0x0,,,,An account was successfully logged on: service_backup network logon to FS01 for backup
+2026-07-22 11:48:21,DC01,vrao,4769,192.168.1.108,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for vrao to access FS02
+2026-07-22 11:48:22,FS02,vrao,4624,192.168.1.108,192.168.1.12,3,0x0,,,,An account was successfully logged on: vrao network logon to FS02
+2026-07-22 11:50:27,DC01,bshetty,4768,192.168.1.113,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for bshetty
+2026-07-22 11:50:29,WS-13,bshetty,4624,192.168.1.113,192.168.1.113,2,0x0,,,,An account was successfully logged on: bshetty at WS-13
+2026-07-22 11:51:41,FS02,itadmin3,4624,192.168.1.103,192.168.1.12,3,0x0,,,,An account was successfully logged on: itadmin3 network logon to FS02 share access
+2026-07-22 11:52:14,WS-16,itadmin3,4688,192.168.1.116,192.168.1.116,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin3: powershell.exe -Command ""Get-EventLog -LogName System -Newest 50"""
+2026-07-22 11:53:25,FS01,ychawla,4624,192.168.1.117,192.168.1.11,3,0x0,,,,An account was successfully logged on: ychawla network logon to FS01 share access
+2026-07-22 11:53:55,DC01,itadmin3,4768,192.168.1.103,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for itadmin3
+2026-07-22 11:53:57,WS-03,itadmin3,4624,192.168.1.103,192.168.1.103,2,0x0,,,,An account was successfully logged on: itadmin3 at WS-03
+2026-07-22 11:54:58,WEB01,pchandra,4776,192.168.1.110,192.168.1.14,,0x0,,,,The domain controller attempted to validate credentials for pchandra (NTLM to WEB01)
+2026-07-22 11:55:13,DC01,mkapoor,4769,192.168.1.103,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for mkapoor to access FS01
+2026-07-22 11:55:14,FS01,mkapoor,4624,192.168.1.103,192.168.1.11,3,0x0,,,,An account was successfully logged on: mkapoor network logon to FS01
+2026-07-22 11:55:31,DC01,apatel,4768,192.168.1.120,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for apatel
+2026-07-22 11:55:33,WS-20,apatel,4624,192.168.1.120,192.168.1.120,2,0x0,,,,An account was successfully logged on: apatel at WS-20
+2026-07-22 11:59:33,FS02,itadmin2,4672,192.168.1.12,192.168.1.12,,,,,,Special privileges assigned to new logon: itadmin2 (Administrators group) on FS02
+2026-07-22 12:01:45,DC01,fD'souza,4768,192.168.1.112,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for fD'souza
+2026-07-22 12:01:47,WS-12,fD'souza,4624,192.168.1.112,192.168.1.112,2,0x0,,,,An account was successfully logged on: fD'souza at WS-12
+2026-07-22 12:02:25,DC01,jthomas,4769,192.168.1.118,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for jthomas to access FS02
+2026-07-22 12:02:26,FS02,jthomas,4624,192.168.1.118,192.168.1.12,3,0x0,,,,An account was successfully logged on: jthomas network logon to FS02
+2026-07-22 12:04:53,DC01,pnair,4768,192.168.1.107,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for pnair
+2026-07-22 12:04:55,WS-07,pnair,4624,192.168.1.107,192.168.1.107,2,0x0,,,,An account was successfully logged on: pnair at WS-07
+2026-07-22 12:05:23,DC01,mkapoor,4768,192.168.1.103,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for mkapoor
+2026-07-22 12:05:25,WS-03,mkapoor,4624,192.168.1.103,192.168.1.103,2,0x0,,,,An account was successfully logged on: mkapoor at WS-03
+2026-07-22 12:06:23,DC01,aiyer,4768,192.168.1.104,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for aiyer
+2026-07-22 12:06:25,WS-04,aiyer,4624,192.168.1.104,192.168.1.104,2,0x0,,,,An account was successfully logged on: aiyer at WS-04
+2026-07-22 12:06:29,WEB01,akumar,4776,192.168.1.116,192.168.1.14,,0x0,,,,The domain controller attempted to validate credentials for akumar (NTLM to WEB01)
+2026-07-22 12:08:28,WEB01,svc_web,4624,192.168.1.14,192.168.1.14,5,0x0,,,,An account was successfully logged on: svc_web service logon (IIS app pool)
+2026-07-22 12:08:28,WS-03,itadmin3,4688,192.168.1.103,192.168.1.103,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin3: powershell.exe -Command ""Get-EventLog -LogName System -Newest 50"""
+2026-07-22 12:10:03,WS-05,hshetty,4634,192.168.1.105,192.168.1.105,2,,,,,An account was logged off: hshetty at WS-05
+2026-07-22 12:11:18,DC01,itadmin1,4768,192.168.1.102,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for itadmin1
+2026-07-22 12:11:20,WS-02,itadmin1,4624,192.168.1.102,192.168.1.102,2,0x0,,,,An account was successfully logged on: itadmin1 at WS-02
+2026-07-22 12:12:29,DC01,bshetty,4769,192.168.1.113,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for bshetty to access FS01
+2026-07-22 12:12:30,FS01,bshetty,4624,192.168.1.113,192.168.1.11,3,0x0,,,,An account was successfully logged on: bshetty network logon to FS01
+2026-07-22 12:13:19,WS-11,mreddy,4634,192.168.1.111,192.168.1.111,2,,,,,An account was logged off: mreddy at WS-11
+2026-07-22 12:13:36,DC01,tshah,4768,192.168.1.114,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for tshah
+2026-07-22 12:13:38,WS-14,tshah,4624,192.168.1.114,192.168.1.114,2,0x0,,,,An account was successfully logged on: tshah at WS-14
+2026-07-22 12:17:15,DC01,itadmin2,4724,192.168.1.10,192.168.1.10,,0x0,,,,An attempt was made to reset tnayak's password by itadmin2
+2026-07-22 12:19:26,FS02,Administrator,4672,192.168.1.12,192.168.1.12,,,,,,Special privileges assigned to new logon: Administrator (Administrators group) on FS02
+2026-07-22 12:19:33,WS-04,itadmin2,4688,192.168.1.104,192.168.1.104,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin2: powershell.exe -Command ""Get-ADUser -Filter * | Export-Csv report.csv"""
+2026-07-22 12:19:53,DC01,itadmin3,4672,192.168.1.10,192.168.1.10,,,,,,Special privileges assigned to new logon: itadmin3 (Administrators group) on DC01
+2026-07-22 12:19:57,DC01,itadmin3,4769,192.168.1.103,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for itadmin3 to access FS02
+2026-07-22 12:19:58,FS02,itadmin3,4624,192.168.1.103,192.168.1.12,3,0x0,,,,An account was successfully logged on: itadmin3 network logon to FS02
+2026-07-22 12:21:19,FS01,nkulkarni,4624,192.168.1.117,192.168.1.11,3,0x0,,,,An account was successfully logged on: nkulkarni network logon to FS01 share access
+2026-07-22 12:21:30,DC01,rmehta,4768,192.168.1.115,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for rmehta
+2026-07-22 12:21:32,WS-15,rmehta,4624,192.168.1.115,192.168.1.115,2,0x0,,,,An account was successfully logged on: rmehta at WS-15
+2026-07-22 12:22:20,DC01,itadmin1,4769,192.168.1.102,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for itadmin1 to access FS01
+2026-07-22 12:22:21,FS01,itadmin1,4624,192.168.1.102,192.168.1.11,3,0x0,,,,An account was successfully logged on: itadmin1 network logon to FS01
+2026-07-22 12:22:45,DC01,Administrator,4672,192.168.1.10,192.168.1.10,,,,,,Special privileges assigned to new logon: Administrator (Administrators group) on DC01
+2026-07-22 12:23:01,DC01,mkapoor,4768,192.168.1.103,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for mkapoor
+2026-07-22 12:23:03,WS-03,mkapoor,4624,192.168.1.103,192.168.1.103,2,0x0,,,,An account was successfully logged on: mkapoor at WS-03
+2026-07-22 12:23:13,WS-03,mkapoor,4634,192.168.1.103,192.168.1.103,2,,,,,An account was logged off: mkapoor at WS-03
+2026-07-22 12:23:55,DC01,pnair,4769,192.168.1.107,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for pnair to access FS01
+2026-07-22 12:23:56,FS01,pnair,4624,192.168.1.107,192.168.1.11,3,0x0,,,,An account was successfully logged on: pnair network logon to FS01
+2026-07-22 12:25:15,BKSRV01,service_backup,4624,192.168.1.13,192.168.1.13,5,0x0,,,,An account was successfully logged on: service_backup service logon (batch) on BKSRV01
+2026-07-22 12:25:18,BKSRV01,service_backup,4688,192.168.1.13,192.168.1.13,,0x0,C:\Windows\System32\wbengine.exe,,,A new process was created by service_backup: wbengine.exe (scheduled backup job)
+2026-07-22 12:25:25,FS01,pchandra,4624,192.168.1.110,192.168.1.11,3,0x0,,,,An account was successfully logged on: pchandra network logon to FS01 share access
+2026-07-22 12:25:45,DC01,itadmin3,4724,192.168.1.10,192.168.1.10,,0x0,,,,An attempt was made to reset ssharma's password by itadmin3
+2026-07-22 12:26:13,FS01,csubramaniam,4624,192.168.1.116,192.168.1.11,3,0x0,,,,An account was successfully logged on: csubramaniam network logon to FS01 share access
+2026-07-22 12:26:15,FS01,service_backup,4624,192.168.1.13,192.168.1.11,3,0x0,,,,An account was successfully logged on: service_backup network logon to FS01 for backup
+2026-07-22 12:31:03,WS-12,itadmin2,4625,192.168.1.112,192.168.1.112,2,0xC000006A,,,,An account failed to log on: itadmin2 at WS-12 (bad password typo)
+2026-07-22 12:33:32,DC01,rmehta,4769,192.168.1.115,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for rmehta to access FS01
+2026-07-22 12:33:33,FS01,rmehta,4624,192.168.1.115,192.168.1.11,3,0x0,,,,An account was successfully logged on: rmehta network logon to FS01
+2026-07-22 12:33:45,BKSRV01,backup_admin,4624,192.168.1.13,192.168.1.13,5,0x0,,,,An account was successfully logged on: backup_admin service logon (batch) on BKSRV01
+2026-07-22 12:33:48,BKSRV01,backup_admin,4688,192.168.1.13,192.168.1.13,,0x0,C:\Windows\System32\wbengine.exe,,,A new process was created by backup_admin: wbengine.exe (scheduled backup job)
+2026-07-22 12:34:35,WS-04,itadmin1,4688,192.168.1.104,192.168.1.104,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin1: powershell.exe -Command ""Get-Disk | Get-Volume"""
+2026-07-22 12:34:45,FS01,backup_admin,4624,192.168.1.13,192.168.1.11,3,0x0,,,,An account was successfully logged on: backup_admin network logon to FS01 for backup
+2026-07-22 12:35:39,DC01,aiyer,4768,192.168.1.104,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for aiyer
+2026-07-22 12:35:41,WS-04,aiyer,4624,192.168.1.104,192.168.1.104,2,0x0,,,,An account was successfully logged on: aiyer at WS-04
+2026-07-22 12:37:38,DC01,tshah,4769,192.168.1.114,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for tshah to access FS01
+2026-07-22 12:37:39,FS01,tshah,4624,192.168.1.114,192.168.1.11,3,0x0,,,,An account was successfully logged on: tshah network logon to FS01
+2026-07-22 12:38:24,WS-05,itadmin2,4688,192.168.1.105,192.168.1.105,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin2: powershell.exe -Command ""Get-Disk | Get-Volume"""
+2026-07-22 12:38:53,FS02,kverma,4624,192.168.1.105,192.168.1.12,3,0x0,,,,An account was successfully logged on: kverma network logon to FS02 share access
+2026-07-22 12:40:25,WS-18,jthomas,4634,192.168.1.118,192.168.1.118,2,,,,,An account was logged off: jthomas at WS-18
+2026-07-22 12:41:00,FS02,akumar,4624,192.168.1.116,192.168.1.12,3,0x0,,,,An account was successfully logged on: akumar network logon to FS02 share access
+2026-07-22 12:41:25,WS-12,fD'souza,4634,192.168.1.112,192.168.1.112,2,,,,,An account was logged off: fD'souza at WS-12
+2026-07-22 12:45:14,WS-14,vraghunathan,4634,192.168.1.114,192.168.1.114,2,,,,,An account was logged off: vraghunathan at WS-14
+2026-07-22 12:46:21,FS02,Administrator,4672,192.168.1.12,192.168.1.12,,,,,,Special privileges assigned to new logon: Administrator (Administrators group) on FS02
+2026-07-22 12:47:50,WS-13,svarma,4634,192.168.1.113,192.168.1.113,2,,,,,An account was logged off: svarma at WS-13
+2026-07-22 12:48:45,DC01,Administrator,4672,192.168.1.10,192.168.1.10,,,,,,Special privileges assigned to new logon: Administrator (Administrators group) on DC01
+2026-07-22 12:48:55,FS02,itadmin1,4672,192.168.1.12,192.168.1.12,,,,,,Special privileges assigned to new logon: itadmin1 (Administrators group) on FS02
+2026-07-22 12:49:02,DC01,apatel,4768,192.168.1.120,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for apatel
+2026-07-22 12:49:04,WS-20,apatel,4624,192.168.1.120,192.168.1.120,2,0x0,,,,An account was successfully logged on: apatel at WS-20
+2026-07-22 12:49:55,DC01,itadmin2,4768,192.168.1.112,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for itadmin2
+2026-07-22 12:49:57,WS-12,itadmin2,4624,192.168.1.112,192.168.1.112,2,0x0,,,,An account was successfully logged on: itadmin2 at WS-12
+2026-07-22 12:50:06,DC01,opillai,4768,192.168.1.111,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for opillai
+2026-07-22 12:50:08,WS-11,opillai,4624,192.168.1.111,192.168.1.111,2,0x0,,,,An account was successfully logged on: opillai at WS-11
+2026-07-22 12:54:03,DC01,mkapoor,4769,192.168.1.103,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for mkapoor to access FS01
+2026-07-22 12:54:04,FS01,mkapoor,4624,192.168.1.103,192.168.1.11,3,0x0,,,,An account was successfully logged on: mkapoor network logon to FS01
+2026-07-22 12:54:51,DC01,itadmin3,4724,192.168.1.10,192.168.1.10,,0x0,,,,An attempt was made to reset opillai's password by itadmin3
+2026-07-22 12:55:58,WS-12,itadmin2,4634,192.168.1.112,192.168.1.112,2,,,,,An account was logged off: itadmin2 at WS-12
+2026-07-22 12:56:40,WS-05,SYSTEM,4698,192.168.1.105,192.168.1.105,,0x0,C:\Windows\System32\taskeng.exe,,,A scheduled task was created by SYSTEM on WS-05 (routine maintenance task)
+2026-07-22 12:57:58,WS-12,itadmin2,4634,192.168.1.112,192.168.1.112,2,,,,,An account was logged off: itadmin2 at WS-12
+2026-07-22 12:58:00,FS02,akumar,4624,192.168.1.116,192.168.1.12,3,0x0,,,,An account was successfully logged on: akumar network logon to FS02 share access
+2026-07-22 12:59:51,DC01,vrao,4768,192.168.1.108,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for vrao
+2026-07-22 12:59:53,WS-08,vrao,4624,192.168.1.108,192.168.1.108,2,0x0,,,,An account was successfully logged on: vrao at WS-08
+2026-07-22 13:01:20,DC01,itadmin2,4724,192.168.1.10,192.168.1.10,,0x0,,,,An attempt was made to reset akumar's password by itadmin2
+2026-07-22 13:01:58,DC01,rsingh,4768,192.168.1.119,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for rsingh
+2026-07-22 13:02:00,WS-19,rsingh,4624,192.168.1.119,192.168.1.119,2,0x0,,,,An account was successfully logged on: rsingh at WS-19
+2026-07-22 13:02:10,DC01,tshah,4768,192.168.1.114,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for tshah
+2026-07-22 13:02:12,WS-14,tshah,4624,192.168.1.114,192.168.1.114,2,0x0,,,,An account was successfully logged on: tshah at WS-14
+2026-07-22 13:03:37,DC01,itadmin1,4724,192.168.1.10,192.168.1.10,,0x0,,,,An attempt was made to reset hshetty's password by itadmin1
+2026-07-22 13:04:39,BKSRV01,service_backup,4624,192.168.1.13,192.168.1.13,5,0x0,,,,An account was successfully logged on: service_backup service logon (batch) on BKSRV01
+2026-07-22 13:04:42,BKSRV01,service_backup,4688,192.168.1.13,192.168.1.13,,0x0,C:\Windows\System32\wbengine.exe,,,A new process was created by service_backup: wbengine.exe (scheduled backup job)
+2026-07-22 13:05:29,DC01,csubramaniam,4768,192.168.1.116,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for csubramaniam
+2026-07-22 13:05:31,WS-16,csubramaniam,4624,192.168.1.116,192.168.1.116,2,0x0,,,,An account was successfully logged on: csubramaniam at WS-16
+2026-07-22 13:05:33,WS-14,tshah,4625,192.168.1.114,192.168.1.114,2,0xC000006A,,,,An account failed to log on: tshah at WS-14 (bad password typo)
+2026-07-22 13:05:39,FS02,service_backup,4624,192.168.1.13,192.168.1.12,3,0x0,,,,An account was successfully logged on: service_backup network logon to FS02 for backup
+2026-07-22 13:07:43,DC01,jthomas,4768,192.168.1.118,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for jthomas
+2026-07-22 13:07:45,WS-18,jthomas,4624,192.168.1.118,192.168.1.118,2,0x0,,,,An account was successfully logged on: jthomas at WS-18
+2026-07-22 13:08:48,WEB01,svc_web,4624,192.168.1.14,192.168.1.14,5,0x0,,,,An account was successfully logged on: svc_web service logon (IIS app pool)
+2026-07-22 13:12:36,FS02,dghosh,4624,192.168.1.118,192.168.1.12,3,0x0,,,,An account was successfully logged on: dghosh network logon to FS02 share access
+2026-07-22 13:14:46,DC01,nkulkarni,4768,192.168.1.117,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for nkulkarni
+2026-07-22 13:14:48,WS-17,nkulkarni,4624,192.168.1.117,192.168.1.117,2,0x0,,,,An account was successfully logged on: nkulkarni at WS-17
+2026-07-22 13:15:06,WS-19,lfernandes,4634,192.168.1.119,192.168.1.119,2,,,,,An account was logged off: lfernandes at WS-19
+2026-07-22 13:15:12,DC01,vrao,4768,192.168.1.108,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for vrao
+2026-07-22 13:15:13,WEB01,svc_web,4624,192.168.1.14,192.168.1.14,5,0x0,,,,An account was successfully logged on: svc_web service logon (IIS app pool)
+2026-07-22 13:15:14,WS-08,vrao,4624,192.168.1.108,192.168.1.108,2,0x0,,,,An account was successfully logged on: vrao at WS-08
+2026-07-22 13:15:40,WEB01,svc_web,4624,192.168.1.14,192.168.1.14,5,0x0,,,,An account was successfully logged on: svc_web service logon (IIS app pool)
+2026-07-22 13:16:03,DC01,tshah,4768,192.168.1.114,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for tshah
+2026-07-22 13:16:05,WS-14,tshah,4624,192.168.1.114,192.168.1.114,2,0x0,,,,An account was successfully logged on: tshah at WS-14
+2026-07-22 13:16:09,WS-11,SYSTEM,4698,192.168.1.111,192.168.1.111,,0x0,C:\Windows\System32\taskeng.exe,,,A scheduled task was created by SYSTEM on WS-11 (routine maintenance task)
+2026-07-22 13:19:03,DC01,itadmin1,4768,192.168.1.102,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for itadmin1
+2026-07-22 13:19:05,WS-02,itadmin1,4624,192.168.1.102,192.168.1.102,2,0x0,,,,An account was successfully logged on: itadmin1 at WS-02
+2026-07-22 13:20:12,DC01,tshah,4769,192.168.1.114,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for tshah to access FS02
+2026-07-22 13:20:13,FS02,tshah,4624,192.168.1.114,192.168.1.12,3,0x0,,,,An account was successfully logged on: tshah network logon to FS02
+2026-07-22 13:22:28,FS02,itadmin1,4688,192.168.1.12,192.168.1.12,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin1: powershell.exe -Command ""Get-EventLog -LogName System -Newest 50"""
+2026-07-22 13:24:47,FS02,mkapoor,4624,192.168.1.103,192.168.1.12,3,0x0,,,,An account was successfully logged on: mkapoor network logon to FS02 share access
+2026-07-22 13:25:20,WS-02,itadmin1,4634,192.168.1.102,192.168.1.102,2,,,,,An account was logged off: itadmin1 at WS-02
+2026-07-22 13:26:02,WEB01,svc_web,4624,192.168.1.14,192.168.1.14,5,0x0,,,,An account was successfully logged on: svc_web service logon (IIS app pool)
+2026-07-22 13:26:43,DC01,kverma,4768,192.168.1.105,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for kverma
+2026-07-22 13:26:45,WS-05,kverma,4624,192.168.1.105,192.168.1.105,2,0x0,,,,An account was successfully logged on: kverma at WS-05
+2026-07-22 13:27:03,DC01,kverma,4768,192.168.1.105,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for kverma
+2026-07-22 13:27:05,WS-05,kverma,4624,192.168.1.105,192.168.1.105,2,0x0,,,,An account was successfully logged on: kverma at WS-05
+2026-07-22 13:27:27,FS02,dprasad,4624,192.168.1.101,192.168.1.12,3,0x0,,,,An account was successfully logged on: dprasad network logon to FS02 share access
+2026-07-22 13:29:56,DC01,csubramaniam,4768,192.168.1.116,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for csubramaniam
+2026-07-22 13:29:58,WS-16,csubramaniam,4624,192.168.1.116,192.168.1.116,2,0x0,,,,An account was successfully logged on: csubramaniam at WS-16
+2026-07-22 13:29:59,FS02,svarma,4624,192.168.1.113,192.168.1.12,3,0x0,,,,An account was successfully logged on: svarma network logon to FS02 share access
+2026-07-22 13:31:13,WS-14,tshah,4634,192.168.1.114,192.168.1.114,2,,,,,An account was logged off: tshah at WS-14
+2026-07-22 13:31:50,DC01,rsingh,4768,192.168.1.119,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for rsingh
+2026-07-22 13:31:52,WS-19,rsingh,4624,192.168.1.119,192.168.1.119,2,0x0,,,,An account was successfully logged on: rsingh at WS-19
+2026-07-22 13:34:46,WS-20,itadmin2,4688,192.168.1.120,192.168.1.120,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin2: powershell.exe -Command ""Get-Disk | Get-Volume"""
+2026-07-22 13:35:57,DC01,itadmin2,4769,192.168.1.112,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for itadmin2 to access FS02
+2026-07-22 13:35:58,FS02,itadmin2,4624,192.168.1.112,192.168.1.12,3,0x0,,,,An account was successfully logged on: itadmin2 network logon to FS02
+2026-07-22 13:37:47,DC01,bshetty,4768,192.168.1.113,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for bshetty
+2026-07-22 13:37:49,WS-13,bshetty,4624,192.168.1.113,192.168.1.113,2,0x0,,,,An account was successfully logged on: bshetty at WS-13
+2026-07-22 13:42:41,DC01,aiyer,4769,192.168.1.104,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for aiyer to access FS02
+2026-07-22 13:42:42,FS02,aiyer,4624,192.168.1.104,192.168.1.12,3,0x0,,,,An account was successfully logged on: aiyer network logon to FS02
+2026-07-22 13:43:23,DC01,itadmin1,4724,192.168.1.10,192.168.1.10,,0x0,,,,An attempt was made to reset itadmin2's password by itadmin1
+2026-07-22 13:46:17,FS02,svc_scan,4624,192.168.1.12,192.168.1.12,3,0x0,,,,An account was successfully logged on: svc_scan network logon for scheduled scan job
+2026-07-22 13:48:03,DC01,itadmin2,4768,192.168.1.112,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for itadmin2
+2026-07-22 13:48:05,WS-12,itadmin2,4624,192.168.1.112,192.168.1.112,2,0x0,,,,An account was successfully logged on: itadmin2 at WS-12
+2026-07-22 13:48:52,DC01,rsingh,4769,192.168.1.119,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for rsingh to access FS01
+2026-07-22 13:48:53,FS01,rsingh,4624,192.168.1.119,192.168.1.11,3,0x0,,,,An account was successfully logged on: rsingh network logon to FS01
+2026-07-22 13:50:50,WS-03,itadmin1,4688,192.168.1.103,192.168.1.103,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin1: powershell.exe -Command ""Restart-Service -Name Spooler"""
+2026-07-22 13:51:16,WS-12,itadmin2,4634,192.168.1.112,192.168.1.112,2,,,,,An account was logged off: itadmin2 at WS-12
+2026-07-22 13:52:23,DC01,itadmin2,4768,192.168.1.112,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for itadmin2
+2026-07-22 13:52:25,WS-12,itadmin2,4624,192.168.1.112,192.168.1.112,2,0x0,,,,An account was successfully logged on: itadmin2 at WS-12
+2026-07-22 13:53:25,DC01,rsingh,4768,192.168.1.119,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for rsingh
+2026-07-22 13:53:27,WS-19,rsingh,4624,192.168.1.119,192.168.1.119,2,0x0,,,,An account was successfully logged on: rsingh at WS-19
+2026-07-22 13:54:26,WS-03,mkapoor,4634,192.168.1.103,192.168.1.103,2,,,,,An account was logged off: mkapoor at WS-03
+2026-07-22 13:55:00,DC01,dghosh,4768,192.168.1.118,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for dghosh
+2026-07-22 13:55:02,WS-18,dghosh,4624,192.168.1.118,192.168.1.118,2,0x0,,,,An account was successfully logged on: dghosh at WS-18
+2026-07-22 13:56:26,WS-15,rmehta,4634,192.168.1.115,192.168.1.115,2,,,,,An account was logged off: rmehta at WS-15
+2026-07-22 13:57:00,FS02,nkulkarni,4624,192.168.1.117,192.168.1.12,3,0x0,,,,An account was successfully logged on: nkulkarni network logon to FS02 share access
+2026-07-22 13:58:32,FS02,svc_scan,4624,192.168.1.12,192.168.1.12,3,0x0,,,,An account was successfully logged on: svc_scan network logon for scheduled scan job
+2026-07-22 13:58:47,DC01,itadmin3,4724,192.168.1.10,192.168.1.10,,0x0,,,,An attempt was made to reset mreddy's password by itadmin3
+2026-07-22 14:00:46,WS-04,aiyer,4625,192.168.1.104,192.168.1.104,2,0xC000006A,,,,An account failed to log on: aiyer at WS-04 (bad password typo)
+2026-07-22 14:03:53,WS-08,vrao,4634,192.168.1.108,192.168.1.108,2,,,,,An account was logged off: vrao at WS-08
+2026-07-22 14:04:03,WS-09,ssharma,4625,192.168.1.109,192.168.1.109,2,0xC000006A,,,,An account failed to log on: ssharma at WS-09 (bad password typo)
+2026-07-22 14:06:50,WEB01,svc_web,4624,192.168.1.14,192.168.1.14,5,0x0,,,,An account was successfully logged on: svc_web service logon (IIS app pool)
+2026-07-22 14:07:24,WS-17,itadmin3,4688,192.168.1.117,192.168.1.117,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin3: powershell.exe -Command ""Set-ADAccountPassword -Identity user -Reset"""
+2026-07-22 14:09:58,DC01,csubramaniam,4769,192.168.1.116,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for csubramaniam to access FS02
+2026-07-22 14:09:59,FS02,csubramaniam,4624,192.168.1.116,192.168.1.12,3,0x0,,,,An account was successfully logged on: csubramaniam network logon to FS02
+2026-07-22 14:10:12,FS02,svc_scan,4624,192.168.1.12,192.168.1.12,3,0x0,,,,An account was successfully logged on: svc_scan network logon for scheduled scan job
+2026-07-22 14:10:36,DC01,itadmin1,4724,192.168.1.10,192.168.1.10,,0x0,,,,An attempt was made to reset sgowda's password by itadmin1
+2026-07-22 14:10:50,WS-11,itadmin1,4688,192.168.1.111,192.168.1.111,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin1: powershell.exe -Command ""Update-Help -Force"""
+2026-07-22 14:11:10,WS-01,itadmin2,4688,192.168.1.101,192.168.1.101,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin2: powershell.exe -Command ""Get-Service | Where-Object {$_.Status -eq 'Stopped'}"""
+2026-07-22 14:11:33,WS-04,itadmin2,4698,192.168.1.104,192.168.1.104,,0x0,C:\Windows\System32\taskeng.exe,,,A scheduled task was created by itadmin2 on WS-04 (routine maintenance task)
+2026-07-22 14:17:14,WS-05,itadmin2,4688,192.168.1.105,192.168.1.105,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin2: powershell.exe -Command ""Update-Help -Force"""
+2026-07-22 14:17:41,WS-04,aiyer,4634,192.168.1.104,192.168.1.104,2,,,,,An account was logged off: aiyer at WS-04
+2026-07-22 14:18:17,DC01,ssharma,4768,192.168.1.109,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for ssharma
+2026-07-22 14:18:19,WS-09,ssharma,4624,192.168.1.109,192.168.1.109,2,0x0,,,,An account was successfully logged on: ssharma at WS-09
+2026-07-22 14:19:26,DC01,aiyer,4768,192.168.1.104,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for aiyer
+2026-07-22 14:19:28,WS-04,aiyer,4624,192.168.1.104,192.168.1.104,2,0x0,,,,An account was successfully logged on: aiyer at WS-04
+2026-07-22 14:20:59,FS02,cwilliams,4624,192.168.1.102,192.168.1.12,3,0x0,,,,An account was successfully logged on: cwilliams network logon to FS02 share access
+2026-07-22 14:21:55,FS01,itadmin2,4624,192.168.1.112,192.168.1.11,3,0x0,,,,An account was successfully logged on: itadmin2 network logon to FS01 share access
+2026-07-22 14:22:25,BKSRV01,service_backup,4624,192.168.1.13,192.168.1.13,5,0x0,,,,An account was successfully logged on: service_backup service logon (batch) on BKSRV01
+2026-07-22 14:22:28,BKSRV01,service_backup,4688,192.168.1.13,192.168.1.13,,0x0,C:\Windows\System32\wbengine.exe,,,A new process was created by service_backup: wbengine.exe (scheduled backup job)
+2026-07-22 14:23:25,FS02,service_backup,4624,192.168.1.13,192.168.1.12,3,0x0,,,,An account was successfully logged on: service_backup network logon to FS02 for backup
+2026-07-22 14:24:05,WS-19,itadmin1,4688,192.168.1.119,192.168.1.119,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin1: powershell.exe -Command ""Set-ADAccountPassword -Identity user -Reset"""
+2026-07-22 14:24:16,WS-15,itadmin3,4688,192.168.1.115,192.168.1.115,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin3: powershell.exe -Command ""Restart-Service -Name Spooler"""
+2026-07-22 14:28:03,FS02,itadmin2,4672,192.168.1.12,192.168.1.12,,,,,,Special privileges assigned to new logon: itadmin2 (Administrators group) on FS02
+2026-07-22 14:32:04,FS02,svc_scan,4624,192.168.1.12,192.168.1.12,3,0x0,,,,An account was successfully logged on: svc_scan network logon for scheduled scan job
+2026-07-22 14:34:25,WS-03,mkapoor,4634,192.168.1.103,192.168.1.103,2,,,,,An account was logged off: mkapoor at WS-03
+2026-07-22 14:35:00,WS-07,itadmin3,4688,192.168.1.107,192.168.1.107,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin3: powershell.exe -Command ""Get-Disk | Get-Volume"""
+2026-07-22 14:35:14,FS01,kverma,4624,192.168.1.105,192.168.1.11,3,0x0,,,,An account was successfully logged on: kverma network logon to FS01 share access
+2026-07-22 14:36:49,DC01,itadmin1,4724,192.168.1.10,192.168.1.10,,0x0,,,,An attempt was made to reset jthomas's password by itadmin1
+2026-07-22 14:39:18,DC01,hshetty,4768,192.168.1.105,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for hshetty
+2026-07-22 14:39:20,WS-05,hshetty,4624,192.168.1.105,192.168.1.105,2,0x0,,,,An account was successfully logged on: hshetty at WS-05
+2026-07-22 14:39:42,DC01,itadmin1,4724,192.168.1.10,192.168.1.10,,0x0,,,,An attempt was made to reset kverma's password by itadmin1
+2026-07-22 14:42:55,WS-06,SYSTEM,4698,192.168.1.106,192.168.1.106,,0x0,C:\Windows\System32\taskeng.exe,,,A scheduled task was created by SYSTEM on WS-06 (routine maintenance task)
+2026-07-22 14:44:45,WS-10,njoshi,4625,192.168.1.110,192.168.1.110,2,0xC000006A,,,,An account failed to log on: njoshi at WS-10 (bad password typo)
+2026-07-22 14:45:09,DC01,jthomas,4768,192.168.1.118,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for jthomas
+2026-07-22 14:45:11,WS-18,jthomas,4624,192.168.1.118,192.168.1.118,2,0x0,,,,An account was successfully logged on: jthomas at WS-18
+2026-07-22 14:45:14,DC01,vrao,4769,192.168.1.108,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for vrao to access FS02
+2026-07-22 14:45:15,FS02,vrao,4624,192.168.1.108,192.168.1.12,3,0x0,,,,An account was successfully logged on: vrao network logon to FS02
+2026-07-22 14:46:49,DC01,bshetty,4769,192.168.1.113,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for bshetty to access FS02
+2026-07-22 14:46:50,FS02,bshetty,4624,192.168.1.113,192.168.1.12,3,0x0,,,,An account was successfully logged on: bshetty network logon to FS02
+2026-07-22 14:46:52,WS-18,jthomas,4634,192.168.1.118,192.168.1.118,2,,,,,An account was logged off: jthomas at WS-18
+2026-07-22 14:47:05,WS-05,kverma,4634,192.168.1.105,192.168.1.105,2,,,,,An account was logged off: kverma at WS-05
+2026-07-22 14:47:44,DC01,itadmin1,4724,192.168.1.10,192.168.1.10,,0x0,,,,An attempt was made to reset ssharma's password by itadmin1
+2026-07-22 14:48:21,WS-08,vrao,4634,192.168.1.108,192.168.1.108,2,,,,,An account was logged off: vrao at WS-08
+2026-07-22 14:53:08,WS-11,opillai,4634,192.168.1.111,192.168.1.111,2,,,,,An account was logged off: opillai at WS-11
+2026-07-22 14:53:57,FS02,svc_scan,4624,192.168.1.12,192.168.1.12,3,0x0,,,,An account was successfully logged on: svc_scan network logon for scheduled scan job
+2026-07-22 14:54:04,WS-11,itadmin1,4698,192.168.1.111,192.168.1.111,,0x0,C:\Windows\System32\taskeng.exe,,,A scheduled task was created by itadmin1 on WS-11 (routine maintenance task)
+2026-07-22 14:55:28,BKSRV01,backup_admin,4624,192.168.1.13,192.168.1.13,5,0x0,,,,An account was successfully logged on: backup_admin service logon (batch) on BKSRV01
+2026-07-22 14:55:31,BKSRV01,backup_admin,4688,192.168.1.13,192.168.1.13,,0x0,C:\Windows\System32\wbengine.exe,,,A new process was created by backup_admin: wbengine.exe (scheduled backup job)
+2026-07-22 14:56:02,WS-17,itadmin3,4688,192.168.1.117,192.168.1.117,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin3: powershell.exe -Command ""Restart-Service -Name Spooler"""
+2026-07-22 14:56:28,FS02,backup_admin,4624,192.168.1.13,192.168.1.12,3,0x0,,,,An account was successfully logged on: backup_admin network logon to FS02 for backup
+2026-07-22 14:57:12,WS-05,kverma,4634,192.168.1.105,192.168.1.105,2,,,,,An account was logged off: kverma at WS-05
+2026-07-22 14:58:18,FS01,svc_sql,4624,192.168.1.11,192.168.1.11,5,0x0,,,,An account was successfully logged on: svc_sql service logon (SQL service)
+2026-07-22 15:02:39,DC01,svarma,4768,192.168.1.113,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for svarma
+2026-07-22 15:02:41,WS-13,svarma,4624,192.168.1.113,192.168.1.113,2,0x0,,,,An account was successfully logged on: svarma at WS-13
+2026-07-22 15:05:24,FS02,svc_scan,4624,192.168.1.12,192.168.1.12,3,0x0,,,,An account was successfully logged on: svc_scan network logon for scheduled scan job
+2026-07-22 15:09:12,WS-07,pnair,4634,192.168.1.107,192.168.1.107,2,,,,,An account was logged off: pnair at WS-07
+2026-07-22 15:09:27,WS-19,rsingh,4634,192.168.1.119,192.168.1.119,2,,,,,An account was logged off: rsingh at WS-19
+2026-07-22 15:10:56,DC01,itadmin2,4724,192.168.1.10,192.168.1.10,,0x0,,,,An attempt was made to reset itadmin2's password by itadmin2
+2026-07-22 15:13:31,WS-16,csubramaniam,4634,192.168.1.116,192.168.1.116,2,,,,,An account was logged off: csubramaniam at WS-16
+2026-07-22 15:14:09,WS-03,itadmin3,4688,192.168.1.103,192.168.1.103,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin3: powershell.exe -Command ""Update-Help -Force"""
+2026-07-22 15:14:58,WEB01,ychawla,4776,192.168.1.117,192.168.1.14,,0x0,,,,The domain controller attempted to validate credentials for ychawla (NTLM to WEB01)
+2026-07-22 15:15:31,FS02,aiyer,4624,192.168.1.104,192.168.1.12,3,0x0,,,,An account was successfully logged on: aiyer network logon to FS02 share access
+2026-07-22 15:15:48,FS01,itadmin3,4688,192.168.1.11,192.168.1.11,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin3: powershell.exe -Command ""Restart-Service -Name Spooler"""
+2026-07-22 15:16:33,WEB01,fD'souza,4776,192.168.1.112,192.168.1.14,,0x0,,,,The domain controller attempted to validate credentials for fD'souza (NTLM to WEB01)
+2026-07-22 15:17:23,WS-13,bshetty,4625,192.168.1.113,192.168.1.113,2,0xC000006A,,,,An account failed to log on: bshetty at WS-13 (bad password typo)
+2026-07-22 15:18:10,WS-03,itadmin2,4688,192.168.1.103,192.168.1.103,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin2: powershell.exe -Command ""Get-Service | Where-Object {$_.Status -eq 'Stopped'}"""
+2026-07-22 15:20:59,DC01,bshetty,4768,192.168.1.113,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for bshetty
+2026-07-22 15:21:01,WS-13,bshetty,4624,192.168.1.113,192.168.1.113,2,0x0,,,,An account was successfully logged on: bshetty at WS-13
+2026-07-22 15:21:42,DC01,vrao,4768,192.168.1.108,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for vrao
+2026-07-22 15:21:44,WS-08,vrao,4624,192.168.1.108,192.168.1.108,2,0x0,,,,An account was successfully logged on: vrao at WS-08
+2026-07-22 15:22:54,FS01,svc_sql,4624,192.168.1.11,192.168.1.11,5,0x0,,,,An account was successfully logged on: svc_sql service logon (SQL service)
+2026-07-22 15:23:54,FS01,svc_sql,4624,192.168.1.11,192.168.1.11,5,0x0,,,,An account was successfully logged on: svc_sql service logon (SQL service)
+2026-07-22 15:25:58,WS-05,itadmin1,4688,192.168.1.105,192.168.1.105,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin1: powershell.exe -Command ""Get-ADUser -Filter * | Export-Csv report.csv"""
+2026-07-22 15:26:04,WS-13,itadmin2,4688,192.168.1.113,192.168.1.113,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin2: powershell.exe -Command ""Get-Disk | Get-Volume"""
+2026-07-22 15:26:29,DC01,itadmin3,4724,192.168.1.10,192.168.1.10,,0x0,,,,An attempt was made to reset ssharma's password by itadmin3
+2026-07-22 15:28:59,DC01,hshetty,4768,192.168.1.105,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for hshetty
+2026-07-22 15:29:01,WS-05,hshetty,4624,192.168.1.105,192.168.1.105,2,0x0,,,,An account was successfully logged on: hshetty at WS-05
+2026-07-22 15:29:13,WS-02,itadmin1,4634,192.168.1.102,192.168.1.102,2,,,,,An account was logged off: itadmin1 at WS-02
+2026-07-22 15:31:22,FS02,sgowda,4624,192.168.1.106,192.168.1.12,3,0x0,,,,An account was successfully logged on: sgowda network logon to FS02 share access
+2026-07-22 15:33:08,BKSRV01,service_backup,4624,192.168.1.13,192.168.1.13,5,0x0,,,,An account was successfully logged on: service_backup service logon (batch) on BKSRV01
+2026-07-22 15:33:11,BKSRV01,service_backup,4688,192.168.1.13,192.168.1.13,,0x0,C:\Windows\System32\wbengine.exe,,,A new process was created by service_backup: wbengine.exe (scheduled backup job)
+2026-07-22 15:34:08,FS02,service_backup,4624,192.168.1.13,192.168.1.12,3,0x0,,,,An account was successfully logged on: service_backup network logon to FS02 for backup
+2026-07-22 15:36:40,DC01,rmehta,4768,192.168.1.115,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for rmehta
+2026-07-22 15:36:42,WS-15,rmehta,4624,192.168.1.115,192.168.1.115,2,0x0,,,,An account was successfully logged on: rmehta at WS-15
+2026-07-22 15:37:40,DC01,itadmin2,4724,192.168.1.10,192.168.1.10,,0x0,,,,An attempt was made to reset opillai's password by itadmin2
+2026-07-22 15:39:46,DC01,itadmin1,4768,192.168.1.102,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for itadmin1
+2026-07-22 15:39:48,WS-02,itadmin1,4624,192.168.1.102,192.168.1.102,2,0x0,,,,An account was successfully logged on: itadmin1 at WS-02
+2026-07-22 15:41:57,FS01,itadmin1,4672,192.168.1.11,192.168.1.11,,,,,,Special privileges assigned to new logon: itadmin1 (Administrators group) on FS01
+2026-07-22 15:42:02,WS-18,itadmin3,4688,192.168.1.118,192.168.1.118,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin3: powershell.exe -Command ""Get-Disk | Get-Volume"""
+2026-07-22 15:43:06,DC01,rmehta,4768,192.168.1.115,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for rmehta
+2026-07-22 15:43:08,WS-15,rmehta,4624,192.168.1.115,192.168.1.115,2,0x0,,,,An account was successfully logged on: rmehta at WS-15
+2026-07-22 15:45:21,WS-11,mreddy,4634,192.168.1.111,192.168.1.111,2,,,,,An account was logged off: mreddy at WS-11
+2026-07-22 15:46:06,WEB01,ychawla,4776,192.168.1.117,192.168.1.14,,0x0,,,,The domain controller attempted to validate credentials for ychawla (NTLM to WEB01)
+2026-07-22 15:47:08,FS01,gnair,4624,192.168.1.107,192.168.1.11,3,0x0,,,,An account was successfully logged on: gnair network logon to FS01 share access
+2026-07-22 15:47:37,WS-17,nkulkarni,4634,192.168.1.117,192.168.1.117,2,,,,,An account was logged off: nkulkarni at WS-17
+2026-07-22 15:47:57,WS-19,service_backup,4698,192.168.1.119,192.168.1.119,,0x0,C:\Windows\System32\taskeng.exe,,,A scheduled task was created by service_backup on WS-19 (routine maintenance task)
+2026-07-22 15:48:07,WS-08,vrao,4634,192.168.1.108,192.168.1.108,2,,,,,An account was logged off: vrao at WS-08
+2026-07-22 15:48:40,DC01,vrao,4768,192.168.1.108,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for vrao
+2026-07-22 15:48:42,WS-08,vrao,4624,192.168.1.108,192.168.1.108,2,0x0,,,,An account was successfully logged on: vrao at WS-08
+2026-07-22 15:49:31,DC01,itadmin3,4768,192.168.1.103,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for itadmin3
+2026-07-22 15:49:33,WS-03,itadmin3,4624,192.168.1.103,192.168.1.103,2,0x0,,,,An account was successfully logged on: itadmin3 at WS-03
+2026-07-22 15:50:23,DC01,itadmin3,4768,192.168.1.103,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for itadmin3
+2026-07-22 15:50:25,WS-03,itadmin3,4624,192.168.1.103,192.168.1.103,2,0x0,,,,An account was successfully logged on: itadmin3 at WS-03
+2026-07-22 15:53:02,WS-02,itadmin1,4634,192.168.1.102,192.168.1.102,2,,,,,An account was logged off: itadmin1 at WS-02
+2026-07-22 15:53:29,DC01,vraghunathan,4768,192.168.1.114,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for vraghunathan
+2026-07-22 15:53:31,WS-14,vraghunathan,4624,192.168.1.114,192.168.1.114,2,0x0,,,,An account was successfully logged on: vraghunathan at WS-14
+2026-07-22 15:56:02,WEB01,svc_web,4624,192.168.1.14,192.168.1.14,5,0x0,,,,An account was successfully logged on: svc_web service logon (IIS app pool)
+2026-07-22 15:59:55,DC01,mreddy,4768,192.168.1.111,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for mreddy
+2026-07-22 15:59:57,WS-11,mreddy,4624,192.168.1.111,192.168.1.111,2,0x0,,,,An account was successfully logged on: mreddy at WS-11
+2026-07-22 16:00:11,DC01,jthomas,4769,192.168.1.118,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for jthomas to access FS01
+2026-07-22 16:00:12,FS01,jthomas,4624,192.168.1.118,192.168.1.11,3,0x0,,,,An account was successfully logged on: jthomas network logon to FS01
+2026-07-22 16:00:16,DC01,nkulkarni,4768,192.168.1.117,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for nkulkarni
+2026-07-22 16:00:18,WS-17,nkulkarni,4624,192.168.1.117,192.168.1.117,2,0x0,,,,An account was successfully logged on: nkulkarni at WS-17
+2026-07-22 16:01:06,FS01,itadmin2,4624,192.168.1.112,192.168.1.11,3,0x0,,,,An account was successfully logged on: itadmin2 network logon to FS01 share access
+2026-07-22 16:01:29,WS-13,bshetty,4634,192.168.1.113,192.168.1.113,2,,,,,An account was logged off: bshetty at WS-13
+2026-07-22 16:01:57,WS-03,itadmin3,4634,192.168.1.103,192.168.1.103,2,,,,,An account was logged off: itadmin3 at WS-03
+2026-07-22 16:02:49,FS02,sgowda,4624,192.168.1.106,192.168.1.12,3,0x0,,,,An account was successfully logged on: sgowda network logon to FS02 share access
+2026-07-22 16:02:58,DC01,aiyer,4768,192.168.1.104,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for aiyer
+2026-07-22 16:03:00,WS-04,aiyer,4624,192.168.1.104,192.168.1.104,2,0x0,,,,An account was successfully logged on: aiyer at WS-04
+2026-07-22 16:05:43,FS02,svc_scan,4624,192.168.1.12,192.168.1.12,3,0x0,,,,An account was successfully logged on: svc_scan network logon for scheduled scan job
+2026-07-22 16:07:26,WS-07,itadmin2,4698,192.168.1.107,192.168.1.107,,0x0,C:\Windows\System32\taskeng.exe,,,A scheduled task was created by itadmin2 on WS-07 (routine maintenance task)
+2026-07-22 16:09:31,FS02,apatel,4624,192.168.1.120,192.168.1.12,3,0x0,,,,An account was successfully logged on: apatel network logon to FS02 share access
+2026-07-22 16:10:00,BKSRV01,backup_admin,4624,192.168.1.13,192.168.1.13,5,0x0,,,,An account was successfully logged on: backup_admin service logon (batch) on BKSRV01
+2026-07-22 16:10:03,BKSRV01,backup_admin,4688,192.168.1.13,192.168.1.13,,0x0,C:\Windows\System32\wbengine.exe,,,A new process was created by backup_admin: wbengine.exe (scheduled backup job)
+2026-07-22 16:10:20,WS-18,itadmin1,4688,192.168.1.118,192.168.1.118,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin1: powershell.exe -Command ""Get-Service | Where-Object {$_.Status -eq 'Stopped'}"""
+2026-07-22 16:11:00,FS01,backup_admin,4624,192.168.1.13,192.168.1.11,3,0x0,,,,An account was successfully logged on: backup_admin network logon to FS01 for backup
+2026-07-22 16:11:04,WS-08,itadmin1,4698,192.168.1.108,192.168.1.108,,0x0,C:\Windows\System32\taskeng.exe,,,A scheduled task was created by itadmin1 on WS-08 (routine maintenance task)
+2026-07-22 16:11:27,DC01,pnair,4768,192.168.1.107,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for pnair
+2026-07-22 16:11:29,WS-07,pnair,4624,192.168.1.107,192.168.1.107,2,0x0,,,,An account was successfully logged on: pnair at WS-07
+2026-07-22 16:11:35,FS02,itadmin2,4624,192.168.1.112,192.168.1.12,3,0x0,,,,An account was successfully logged on: itadmin2 network logon to FS02 share access
+2026-07-22 16:12:02,DC01,akumar,4768,192.168.1.116,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for akumar
+2026-07-22 16:12:04,WS-16,akumar,4624,192.168.1.116,192.168.1.116,2,0x0,,,,An account was successfully logged on: akumar at WS-16
+2026-07-22 16:13:13,FS02,svc_scan,4624,192.168.1.12,192.168.1.12,3,0x0,,,,An account was successfully logged on: svc_scan network logon for scheduled scan job
+2026-07-22 16:13:36,FS02,apatel,4624,192.168.1.120,192.168.1.12,3,0x0,,,,An account was successfully logged on: apatel network logon to FS02 share access
+2026-07-22 16:15:12,WS-15,rmehta,4634,192.168.1.115,192.168.1.115,2,,,,,An account was logged off: rmehta at WS-15
+2026-07-22 16:15:28,WS-02,itadmin1,4634,192.168.1.102,192.168.1.102,2,,,,,An account was logged off: itadmin1 at WS-02
+2026-07-22 16:17:01,WS-02,cwilliams,4634,192.168.1.102,192.168.1.102,2,,,,,An account was logged off: cwilliams at WS-02
+2026-07-22 16:19:07,DC01,nkulkarni,4768,192.168.1.117,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for nkulkarni
+2026-07-22 16:19:09,WS-17,nkulkarni,4624,192.168.1.117,192.168.1.117,2,0x0,,,,An account was successfully logged on: nkulkarni at WS-17
+2026-07-22 16:19:17,FS02,svc_scan,4624,192.168.1.12,192.168.1.12,3,0x0,,,,An account was successfully logged on: svc_scan network logon for scheduled scan job
+2026-07-22 16:19:42,DC01,rmehta,4769,192.168.1.115,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for rmehta to access FS01
+2026-07-22 16:19:43,FS01,rmehta,4624,192.168.1.115,192.168.1.11,3,0x0,,,,An account was successfully logged on: rmehta network logon to FS01
+2026-07-22 16:24:16,FS02,nkulkarni,4624,192.168.1.117,192.168.1.12,3,0x0,,,,An account was successfully logged on: nkulkarni network logon to FS02 share access
+2026-07-22 16:24:54,FS01,svc_sql,4624,192.168.1.11,192.168.1.11,5,0x0,,,,An account was successfully logged on: svc_sql service logon (SQL service)
+2026-07-22 16:25:06,WS-10,pchandra,4634,192.168.1.110,192.168.1.110,2,,,,,An account was logged off: pchandra at WS-10
+2026-07-22 16:26:45,FS02,ychawla,4624,192.168.1.117,192.168.1.12,3,0x0,,,,An account was successfully logged on: ychawla network logon to FS02 share access
+2026-07-22 16:27:45,FS02,lfernandes,4624,192.168.1.119,192.168.1.12,3,0x0,,,,An account was successfully logged on: lfernandes network logon to FS02 share access
+2026-07-22 16:29:29,DC01,pnair,4769,192.168.1.107,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for pnair to access FS02
+2026-07-22 16:29:30,FS02,pnair,4624,192.168.1.107,192.168.1.12,3,0x0,,,,An account was successfully logged on: pnair network logon to FS02
+2026-07-22 16:32:17,WS-12,itadmin1,4688,192.168.1.112,192.168.1.112,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin1: powershell.exe -Command ""Get-Disk | Get-Volume"""
+2026-07-22 16:34:00,FS01,vrao,4624,192.168.1.108,192.168.1.11,3,0x0,,,,An account was successfully logged on: vrao network logon to FS01 share access
+2026-07-22 16:36:36,WS-13,itadmin3,4688,192.168.1.113,192.168.1.113,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin3: powershell.exe -Command ""Get-EventLog -LogName System -Newest 50"""
+2026-07-22 16:36:55,FS01,itadmin3,4672,192.168.1.11,192.168.1.11,,,,,,Special privileges assigned to new logon: itadmin3 (Administrators group) on FS01
+2026-07-22 16:37:01,DC01,bshetty,4769,192.168.1.113,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for bshetty to access FS01
+2026-07-22 16:37:02,FS01,bshetty,4624,192.168.1.113,192.168.1.11,3,0x0,,,,An account was successfully logged on: bshetty network logon to FS01
+2026-07-22 16:38:08,DC01,rmehta,4769,192.168.1.115,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for rmehta to access FS02
+2026-07-22 16:38:09,FS02,rmehta,4624,192.168.1.115,192.168.1.12,3,0x0,,,,An account was successfully logged on: rmehta network logon to FS02
+2026-07-22 16:39:33,DC01,jthomas,4768,192.168.1.118,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for jthomas
+2026-07-22 16:39:35,WS-18,jthomas,4624,192.168.1.118,192.168.1.118,2,0x0,,,,An account was successfully logged on: jthomas at WS-18
+2026-07-22 16:40:44,DC01,itadmin1,4768,192.168.1.102,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for itadmin1
+2026-07-22 16:40:46,WS-02,itadmin1,4624,192.168.1.102,192.168.1.102,2,0x0,,,,An account was successfully logged on: itadmin1 at WS-02
+2026-07-22 16:41:48,DC01,itadmin1,4769,192.168.1.102,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for itadmin1 to access FS01
+2026-07-22 16:41:49,FS01,itadmin1,4624,192.168.1.102,192.168.1.11,3,0x0,,,,An account was successfully logged on: itadmin1 network logon to FS01
+2026-07-22 16:42:41,FS01,rsingh,4624,192.168.1.119,192.168.1.11,3,0x0,,,,An account was successfully logged on: rsingh network logon to FS01 share access
+2026-07-22 16:45:46,FS01,svarma,4624,192.168.1.113,192.168.1.11,3,0x0,,,,An account was successfully logged on: svarma network logon to FS01 share access
+2026-07-22 16:46:18,WS-10,itadmin2,4698,192.168.1.110,192.168.1.110,,0x0,C:\Windows\System32\taskeng.exe,,,A scheduled task was created by itadmin2 on WS-10 (routine maintenance task)
+2026-07-22 16:46:40,FS01,svc_sql,4624,192.168.1.11,192.168.1.11,5,0x0,,,,An account was successfully logged on: svc_sql service logon (SQL service)
+2026-07-22 16:47:57,DC01,mreddy,4769,192.168.1.111,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for mreddy to access FS01
+2026-07-22 16:47:58,FS01,mreddy,4624,192.168.1.111,192.168.1.11,3,0x0,,,,An account was successfully logged on: mreddy network logon to FS01
+2026-07-22 16:48:53,DC01,svarma,4768,192.168.1.113,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for svarma
+2026-07-22 16:48:55,WS-13,svarma,4624,192.168.1.113,192.168.1.113,2,0x0,,,,An account was successfully logged on: svarma at WS-13
+2026-07-22 16:49:46,DC01,itadmin1,4769,192.168.1.102,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for itadmin1 to access FS01
+2026-07-22 16:49:47,FS01,itadmin1,4624,192.168.1.102,192.168.1.11,3,0x0,,,,An account was successfully logged on: itadmin1 network logon to FS01
+2026-07-22 16:51:31,FS02,itadmin3,4688,192.168.1.12,192.168.1.12,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin3: powershell.exe -Command ""Restart-Service -Name Spooler"""
+2026-07-22 16:53:37,DC01,mreddy,4768,192.168.1.111,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for mreddy
+2026-07-22 16:53:39,WS-11,mreddy,4624,192.168.1.111,192.168.1.111,2,0x0,,,,An account was successfully logged on: mreddy at WS-11
+2026-07-22 16:54:55,WS-07,pnair,4634,192.168.1.107,192.168.1.107,2,,,,,An account was logged off: pnair at WS-07
+2026-07-22 16:57:01,DC01,hshetty,4769,192.168.1.105,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for hshetty to access FS01
+2026-07-22 16:57:02,FS01,hshetty,4624,192.168.1.105,192.168.1.11,3,0x0,,,,An account was successfully logged on: hshetty network logon to FS01
+2026-07-22 16:57:05,WS-05,kverma,4625,192.168.1.105,192.168.1.105,2,0xC000006A,,,,An account failed to log on: kverma at WS-05 (bad password typo)
+2026-07-22 16:59:05,WS-02,itadmin1,4634,192.168.1.102,192.168.1.102,2,,,,,An account was logged off: itadmin1 at WS-02
+2026-07-22 17:00:01,WS-13,bshetty,4634,192.168.1.113,192.168.1.113,2,,,,,An account was logged off: bshetty at WS-13
+2026-07-22 17:02:09,DC01,nkulkarni,4769,192.168.1.117,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for nkulkarni to access FS01
+2026-07-22 17:02:10,FS01,nkulkarni,4624,192.168.1.117,192.168.1.11,3,0x0,,,,An account was successfully logged on: nkulkarni network logon to FS01
+2026-07-22 17:03:25,FS02,vrao,4624,192.168.1.108,192.168.1.12,3,0x0,,,,An account was successfully logged on: vrao network logon to FS02 share access
+2026-07-22 17:04:25,DC01,itadmin3,4769,192.168.1.103,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for itadmin3 to access FS02
+2026-07-22 17:04:26,FS02,itadmin3,4624,192.168.1.103,192.168.1.12,3,0x0,,,,An account was successfully logged on: itadmin3 network logon to FS02
+2026-07-22 17:04:44,DC01,csubramaniam,4768,192.168.1.116,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for csubramaniam
+2026-07-22 17:04:46,WS-16,csubramaniam,4624,192.168.1.116,192.168.1.116,2,0x0,,,,An account was successfully logged on: csubramaniam at WS-16
+2026-07-22 17:06:13,DC01,itadmin1,4724,192.168.1.10,192.168.1.10,,0x0,,,,An attempt was made to reset apatel's password by itadmin1
+2026-07-22 17:06:38,WS-18,service_backup,4698,192.168.1.118,192.168.1.118,,0x0,C:\Windows\System32\taskeng.exe,,,A scheduled task was created by service_backup on WS-18 (routine maintenance task)
+2026-07-22 17:07:37,FS02,akumar,4624,192.168.1.116,192.168.1.12,3,0x0,,,,An account was successfully logged on: akumar network logon to FS02 share access
+2026-07-22 17:08:19,DC01,itadmin2,4724,192.168.1.10,192.168.1.10,,0x0,,,,An attempt was made to reset itadmin2's password by itadmin2
+2026-07-22 17:08:36,DC01,dprasad,4768,192.168.1.101,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for dprasad
+2026-07-22 17:08:38,WS-01,dprasad,4624,192.168.1.101,192.168.1.101,2,0x0,,,,An account was successfully logged on: dprasad at WS-01
+2026-07-22 17:09:15,WS-20,apatel,4625,192.168.1.120,192.168.1.120,2,0xC000006A,,,,An account failed to log on: apatel at WS-20 (bad password typo)
+2026-07-22 17:12:02,WS-16,itadmin2,4698,192.168.1.116,192.168.1.116,,0x0,C:\Windows\System32\taskeng.exe,,,A scheduled task was created by itadmin2 on WS-16 (routine maintenance task)
+2026-07-22 17:12:04,DC01,itadmin1,4724,192.168.1.10,192.168.1.10,,0x0,,,,An attempt was made to reset rbhat's password by itadmin1
+2026-07-22 17:12:11,FS01,mkapoor,4624,192.168.1.103,192.168.1.11,3,0x0,,,,An account was successfully logged on: mkapoor network logon to FS01 share access
+2026-07-22 17:13:49,DC01,njoshi,4768,192.168.1.110,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for njoshi
+2026-07-22 17:13:51,WS-10,njoshi,4624,192.168.1.110,192.168.1.110,2,0x0,,,,An account was successfully logged on: njoshi at WS-10
+2026-07-22 17:14:08,FS01,itadmin1,4672,192.168.1.11,192.168.1.11,,,,,,Special privileges assigned to new logon: itadmin1 (Administrators group) on FS01
+2026-07-22 17:14:29,DC01,rmehta,4768,192.168.1.115,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for rmehta
+2026-07-22 17:14:31,WS-15,rmehta,4624,192.168.1.115,192.168.1.115,2,0x0,,,,An account was successfully logged on: rmehta at WS-15
+2026-07-22 17:14:33,DC01,nkulkarni,4768,192.168.1.117,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for nkulkarni
+2026-07-22 17:14:35,WS-17,nkulkarni,4624,192.168.1.117,192.168.1.117,2,0x0,,,,An account was successfully logged on: nkulkarni at WS-17
+2026-07-22 17:15:08,BKSRV01,backup_admin,4624,192.168.1.13,192.168.1.13,5,0x0,,,,An account was successfully logged on: backup_admin service logon (batch) on BKSRV01
+2026-07-22 17:15:11,BKSRV01,backup_admin,4688,192.168.1.13,192.168.1.13,,0x0,C:\Windows\System32\wbengine.exe,,,A new process was created by backup_admin: wbengine.exe (scheduled backup job)
+2026-07-22 17:15:47,DC01,svarma,4768,192.168.1.113,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for svarma
+2026-07-22 17:15:49,WS-13,svarma,4624,192.168.1.113,192.168.1.113,2,0x0,,,,An account was successfully logged on: svarma at WS-13
+2026-07-22 17:16:08,FS01,backup_admin,4624,192.168.1.13,192.168.1.11,3,0x0,,,,An account was successfully logged on: backup_admin network logon to FS01 for backup
+2026-07-22 17:17:35,DC01,jthomas,4769,192.168.1.118,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for jthomas to access FS01
+2026-07-22 17:17:36,FS01,jthomas,4624,192.168.1.118,192.168.1.11,3,0x0,,,,An account was successfully logged on: jthomas network logon to FS01
+2026-07-22 17:18:41,WS-13,svarma,4634,192.168.1.113,192.168.1.113,2,,,,,An account was logged off: svarma at WS-13
+2026-07-22 17:19:30,WS-05,kverma,4634,192.168.1.105,192.168.1.105,2,,,,,An account was logged off: kverma at WS-05
+2026-07-22 17:20:41,DC01,pnair,4768,192.168.1.107,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for pnair
+2026-07-22 17:20:43,WS-07,pnair,4624,192.168.1.107,192.168.1.107,2,0x0,,,,An account was successfully logged on: pnair at WS-07
+2026-07-22 17:21:33,DC01,rmehta,4768,192.168.1.115,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for rmehta
+2026-07-22 17:21:35,WS-15,rmehta,4624,192.168.1.115,192.168.1.115,2,0x0,,,,An account was successfully logged on: rmehta at WS-15
+2026-07-22 17:22:29,FS01,itadmin1,4672,192.168.1.11,192.168.1.11,,,,,,Special privileges assigned to new logon: itadmin1 (Administrators group) on FS01
+2026-07-22 17:22:49,WS-02,itadmin1,4625,192.168.1.102,192.168.1.102,2,0xC000006A,,,,An account failed to log on: itadmin1 at WS-02 (bad password typo)
+2026-07-22 17:23:00,FS01,itadmin3,4688,192.168.1.11,192.168.1.11,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin3: powershell.exe -Command ""Set-ADAccountPassword -Identity user -Reset"""
+2026-07-22 17:25:19,FS01,aiyer,4624,192.168.1.104,192.168.1.11,3,0x0,,,,An account was successfully logged on: aiyer network logon to FS01 share access
+2026-07-22 17:25:42,DC01,rbhat,4768,192.168.1.106,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for rbhat
+2026-07-22 17:25:44,WS-06,rbhat,4624,192.168.1.106,192.168.1.106,2,0x0,,,,An account was successfully logged on: rbhat at WS-06
+2026-07-22 17:26:42,WS-08,vrao,4634,192.168.1.108,192.168.1.108,2,,,,,An account was logged off: vrao at WS-08
+2026-07-22 17:30:00,WS-15,rmehta,4634,192.168.1.115,192.168.1.115,2,,,,,An account was logged off: rmehta at WS-15
+2026-07-22 17:30:59,DC01,lfernandes,4768,192.168.1.119,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for lfernandes
+2026-07-22 17:31:01,WS-19,lfernandes,4624,192.168.1.119,192.168.1.119,2,0x0,,,,An account was successfully logged on: lfernandes at WS-19
+2026-07-22 17:32:00,WS-13,svarma,4634,192.168.1.113,192.168.1.113,2,,,,,An account was logged off: svarma at WS-13
+2026-07-22 17:32:00,WS-05,hshetty,4634,192.168.1.105,192.168.1.105,2,,,,,An account was logged off: hshetty at WS-05
+2026-07-22 17:32:01,WS-05,hshetty,4634,192.168.1.105,192.168.1.105,2,,,,,An account was logged off: hshetty at WS-05
+2026-07-22 17:32:34,DC01,ychawla,4768,192.168.1.117,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for ychawla
+2026-07-22 17:32:36,WS-17,ychawla,4624,192.168.1.117,192.168.1.117,2,0x0,,,,An account was successfully logged on: ychawla at WS-17
+2026-07-22 17:33:00,WS-19,rsingh,4634,192.168.1.119,192.168.1.119,2,,,,,An account was logged off: rsingh at WS-19
+2026-07-22 17:33:00,WS-17,ychawla,4634,192.168.1.117,192.168.1.117,2,,,,,An account was logged off: ychawla at WS-17
+2026-07-22 17:33:00,WS-14,tshah,4634,192.168.1.114,192.168.1.114,2,,,,,An account was logged off: tshah at WS-14
+2026-07-22 17:33:43,DC01,pnair,4769,192.168.1.107,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for pnair to access FS02
+2026-07-22 17:33:44,FS02,pnair,4624,192.168.1.107,192.168.1.12,3,0x0,,,,An account was successfully logged on: pnair network logon to FS02
+2026-07-22 17:34:00,WS-06,rbhat,4634,192.168.1.106,192.168.1.106,2,,,,,An account was logged off: rbhat at WS-06
+2026-07-22 17:34:00,WS-04,aiyer,4634,192.168.1.104,192.168.1.104,2,,,,,An account was logged off: aiyer at WS-04
+2026-07-22 17:34:33,DC01,fD'souza,4768,192.168.1.112,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for fD'souza
+2026-07-22 17:34:35,WS-12,fD'souza,4624,192.168.1.112,192.168.1.112,2,0x0,,,,An account was successfully logged on: fD'souza at WS-12
+2026-07-22 17:35:00,WS-17,nkulkarni,4634,192.168.1.117,192.168.1.117,2,,,,,An account was logged off: nkulkarni at WS-17
+2026-07-22 17:35:00,WS-15,rmehta,4634,192.168.1.115,192.168.1.115,2,,,,,An account was logged off: rmehta at WS-15
+2026-07-22 17:35:00,WS-20,apatel,4634,192.168.1.120,192.168.1.120,2,,,,,An account was logged off: apatel at WS-20
+2026-07-22 17:35:00,WS-15,rmehta,4634,192.168.1.115,192.168.1.115,2,,,,,An account was logged off: rmehta at WS-15
+2026-07-22 17:36:00,WS-14,tshah,4634,192.168.1.114,192.168.1.114,2,,,,,An account was logged off: tshah at WS-14
+2026-07-22 17:37:00,WS-11,mreddy,4634,192.168.1.111,192.168.1.111,2,,,,,An account was logged off: mreddy at WS-11
+2026-07-22 17:37:00,WS-12,fD'souza,4634,192.168.1.112,192.168.1.112,2,,,,,An account was logged off: fD'souza at WS-12
+2026-07-22 17:37:00,WS-16,csubramaniam,4634,192.168.1.116,192.168.1.116,2,,,,,An account was logged off: csubramaniam at WS-16
+2026-07-22 17:37:44,FS02,itadmin1,4688,192.168.1.12,192.168.1.12,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin1: powershell.exe -Command ""Update-Help -Force"""
+2026-07-22 17:37:56,FS01,vrao,4624,192.168.1.108,192.168.1.11,3,0x0,,,,An account was successfully logged on: vrao network logon to FS01 share access
+2026-07-22 17:38:00,WS-18,jthomas,4634,192.168.1.118,192.168.1.118,2,,,,,An account was logged off: jthomas at WS-18
+2026-07-22 17:38:00,WS-17,nkulkarni,4634,192.168.1.117,192.168.1.117,2,,,,,An account was logged off: nkulkarni at WS-17
+2026-07-22 17:38:45,WS-07,gnair,4634,192.168.1.107,192.168.1.107,2,,,,,An account was logged off: gnair at WS-07
+2026-07-22 17:39:00,WS-12,fD'souza,4634,192.168.1.112,192.168.1.112,2,,,,,An account was logged off: fD'souza at WS-12
+2026-07-22 17:39:00,WS-20,apatel,4634,192.168.1.120,192.168.1.120,2,,,,,An account was logged off: apatel at WS-20
+2026-07-22 17:39:00,WS-18,jthomas,4634,192.168.1.118,192.168.1.118,2,,,,,An account was logged off: jthomas at WS-18
+2026-07-22 17:39:31,DC01,njoshi,4768,192.168.1.110,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for njoshi
+2026-07-22 17:39:33,WS-10,njoshi,4624,192.168.1.110,192.168.1.110,2,0x0,,,,An account was successfully logged on: njoshi at WS-10
+2026-07-22 17:39:49,DC01,itadmin3,4672,192.168.1.10,192.168.1.10,,,,,,Special privileges assigned to new logon: itadmin3 (Administrators group) on DC01
+2026-07-22 17:40:00,WS-12,itadmin2,4634,192.168.1.112,192.168.1.112,2,,,,,An account was logged off: itadmin2 at WS-12
+2026-07-22 17:40:00,WS-19,rsingh,4634,192.168.1.119,192.168.1.119,2,,,,,An account was logged off: rsingh at WS-19
+2026-07-22 17:40:00,WS-10,njoshi,4634,192.168.1.110,192.168.1.110,2,,,,,An account was logged off: njoshi at WS-10
+2026-07-22 17:40:00,WS-15,rmehta,4634,192.168.1.115,192.168.1.115,2,,,,,An account was logged off: rmehta at WS-15
+2026-07-22 17:40:08,FS02,fD'souza,4624,192.168.1.112,192.168.1.12,3,0x0,,,,An account was successfully logged on: fD'souza network logon to FS02 share access
+2026-07-22 17:41:00,WS-17,nkulkarni,4634,192.168.1.117,192.168.1.117,2,,,,,An account was logged off: nkulkarni at WS-17
+2026-07-22 17:42:44,DC01,rbhat,4769,192.168.1.106,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for rbhat to access FS01
+2026-07-22 17:42:45,FS01,rbhat,4624,192.168.1.106,192.168.1.11,3,0x0,,,,An account was successfully logged on: rbhat network logon to FS01
+2026-07-22 17:42:51,WS-11,itadmin2,4688,192.168.1.111,192.168.1.111,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin2: powershell.exe -Command ""Get-Disk | Get-Volume"""
+2026-07-22 17:43:00,WS-12,itadmin2,4634,192.168.1.112,192.168.1.112,2,,,,,An account was logged off: itadmin2 at WS-12
+2026-07-22 17:43:00,WS-05,hshetty,4634,192.168.1.105,192.168.1.105,2,,,,,An account was logged off: hshetty at WS-05
+2026-07-22 17:44:00,WS-13,svarma,4634,192.168.1.113,192.168.1.113,2,,,,,An account was logged off: svarma at WS-13
+2026-07-22 17:44:00,WS-09,ssharma,4634,192.168.1.109,192.168.1.109,2,,,,,An account was logged off: ssharma at WS-09
+2026-07-22 17:44:32,WS-06,sgowda,4634,192.168.1.106,192.168.1.106,2,,,,,An account was logged off: sgowda at WS-06
+2026-07-22 17:45:00,WS-03,itadmin3,4634,192.168.1.103,192.168.1.103,2,,,,,An account was logged off: itadmin3 at WS-03
+2026-07-22 17:45:00,WS-07,pnair,4634,192.168.1.107,192.168.1.107,2,,,,,An account was logged off: pnair at WS-07
+2026-07-22 17:45:28,DC01,kverma,4768,192.168.1.105,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for kverma
+2026-07-22 17:45:30,WS-05,kverma,4624,192.168.1.105,192.168.1.105,2,0x0,,,,An account was successfully logged on: kverma at WS-05
+2026-07-22 17:45:42,FS01,kverma,4624,192.168.1.105,192.168.1.11,3,0x0,,,,An account was successfully logged on: kverma network logon to FS01 share access
+2026-07-22 17:46:00,WS-13,bshetty,4634,192.168.1.113,192.168.1.113,2,,,,,An account was logged off: bshetty at WS-13
+2026-07-22 17:46:04,WS-04,service_backup,4698,192.168.1.104,192.168.1.104,,0x0,C:\Windows\System32\taskeng.exe,,,A scheduled task was created by service_backup on WS-04 (routine maintenance task)
+2026-07-22 17:47:00,WS-08,vrao,4634,192.168.1.108,192.168.1.108,2,,,,,An account was logged off: vrao at WS-08
+2026-07-22 17:47:00,WS-17,nkulkarni,4634,192.168.1.117,192.168.1.117,2,,,,,An account was logged off: nkulkarni at WS-17
+2026-07-22 17:47:00,WS-18,dghosh,4634,192.168.1.118,192.168.1.118,2,,,,,An account was logged off: dghosh at WS-18
+2026-07-22 17:48:00,WS-02,itadmin1,4634,192.168.1.102,192.168.1.102,2,,,,,An account was logged off: itadmin1 at WS-02
+2026-07-22 17:48:00,WS-18,jthomas,4634,192.168.1.118,192.168.1.118,2,,,,,An account was logged off: jthomas at WS-18
+2026-07-22 17:48:07,WEB01,pnair,4776,192.168.1.107,192.168.1.14,,0x0,,,,The domain controller attempted to validate credentials for pnair (NTLM to WEB01)
+2026-07-22 17:48:16,FS01,svc_sql,4624,192.168.1.11,192.168.1.11,5,0x0,,,,An account was successfully logged on: svc_sql service logon (SQL service)
+2026-07-22 17:49:00,WS-15,rmehta,4634,192.168.1.115,192.168.1.115,2,,,,,An account was logged off: rmehta at WS-15
+2026-07-22 17:49:59,WS-05,itadmin1,4688,192.168.1.105,192.168.1.105,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin1: powershell.exe -Command ""Get-Service | Where-Object {$_.Status -eq 'Stopped'}"""
+2026-07-22 17:50:00,WS-11,mreddy,4634,192.168.1.111,192.168.1.111,2,,,,,An account was logged off: mreddy at WS-11
+2026-07-22 17:50:00,WS-12,itadmin2,4634,192.168.1.112,192.168.1.112,2,,,,,An account was logged off: itadmin2 at WS-12
+2026-07-22 17:50:00,WS-04,aiyer,4634,192.168.1.104,192.168.1.104,2,,,,,An account was logged off: aiyer at WS-04
+2026-07-22 17:50:01,DC01,itadmin2,4768,192.168.1.112,192.168.1.10,,0x0,,,,A Kerberos authentication ticket (TGT) was requested for itadmin2
+2026-07-22 17:50:03,WS-12,itadmin2,4624,192.168.1.112,192.168.1.112,2,0x0,,,,An account was successfully logged on: itadmin2 at WS-12
+2026-07-22 17:50:35,DC01,rmehta,4769,192.168.1.115,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for rmehta to access FS02
+2026-07-22 17:50:36,FS02,rmehta,4624,192.168.1.115,192.168.1.12,3,0x0,,,,An account was successfully logged on: rmehta network logon to FS02
+2026-07-22 17:50:56,FS01,njoshi,4624,192.168.1.110,192.168.1.11,3,0x0,,,,An account was successfully logged on: njoshi network logon to FS01 share access
+2026-07-22 17:51:00,WS-19,lfernandes,4634,192.168.1.119,192.168.1.119,2,,,,,An account was logged off: lfernandes at WS-19
+2026-07-22 17:51:00,WS-03,mkapoor,4634,192.168.1.103,192.168.1.103,2,,,,,An account was logged off: mkapoor at WS-03
+2026-07-22 17:51:00,WS-05,kverma,4634,192.168.1.105,192.168.1.105,2,,,,,An account was logged off: kverma at WS-05
+2026-07-22 17:52:35,DC01,nkulkarni,4769,192.168.1.117,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for nkulkarni to access FS01
+2026-07-22 17:52:36,FS01,nkulkarni,4624,192.168.1.117,192.168.1.11,3,0x0,,,,An account was successfully logged on: nkulkarni network logon to FS01
+2026-07-22 17:52:40,WS-14,itadmin2,4688,192.168.1.114,192.168.1.114,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin2: powershell.exe -Command ""Get-ADUser -Filter * | Export-Csv report.csv"""
+2026-07-22 17:53:25,FS01,ychawla,4624,192.168.1.117,192.168.1.11,3,0x0,,,,An account was successfully logged on: ychawla network logon to FS01 share access
+2026-07-22 17:53:34,WS-15,itadmin2,4688,192.168.1.115,192.168.1.115,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,"A new process was created by itadmin2: powershell.exe -Command ""Restart-Service -Name Spooler"""
+2026-07-22 17:53:52,WS-17,ychawla,4634,192.168.1.117,192.168.1.117,2,,,,,An account was logged off: ychawla at WS-17
+2026-07-22 17:54:00,WS-02,itadmin1,4634,192.168.1.102,192.168.1.102,2,,,,,An account was logged off: itadmin1 at WS-02
+2026-07-22 17:54:00,WS-03,itadmin3,4634,192.168.1.103,192.168.1.103,2,,,,,An account was logged off: itadmin3 at WS-03
+2026-07-22 17:54:00,WS-17,nkulkarni,4634,192.168.1.117,192.168.1.117,2,,,,,An account was logged off: nkulkarni at WS-17
+2026-07-22 17:54:42,DC01,itadmin3,4672,192.168.1.10,192.168.1.10,,,,,,Special privileges assigned to new logon: itadmin3 (Administrators group) on DC01
+2026-07-22 17:55:00,WS-14,vraghunathan,4634,192.168.1.114,192.168.1.114,2,,,,,An account was logged off: vraghunathan at WS-14
+2026-07-22 17:55:00,WS-12,itadmin2,4634,192.168.1.112,192.168.1.112,2,,,,,An account was logged off: itadmin2 at WS-12
+2026-07-22 17:55:00,WS-07,pnair,4634,192.168.1.107,192.168.1.107,2,,,,,An account was logged off: pnair at WS-07
+2026-07-22 17:55:13,DC01,csubramaniam,4625,192.168.1.150,192.168.1.10,3,0xC000006A,,,,An account failed to log on: csubramaniam from 192.168.1.150 (password spray attempt against DC01)
+2026-07-22 17:56:00,WS-14,tshah,4634,192.168.1.114,192.168.1.114,2,,,,,An account was logged off: tshah at WS-14
+2026-07-22 17:56:00,WS-01,dprasad,4634,192.168.1.101,192.168.1.101,2,,,,,An account was logged off: dprasad at WS-01
+2026-07-22 17:56:00,WS-08,vrao,4634,192.168.1.108,192.168.1.108,2,,,,,An account was logged off: vrao at WS-08
+2026-07-22 17:56:00,WS-10,njoshi,4634,192.168.1.110,192.168.1.110,2,,,,,An account was logged off: njoshi at WS-10
+2026-07-22 17:57:00,WS-15,rmehta,4634,192.168.1.115,192.168.1.115,2,,,,,An account was logged off: rmehta at WS-15
+2026-07-22 17:57:00,WS-16,csubramaniam,4634,192.168.1.116,192.168.1.116,2,,,,,An account was logged off: csubramaniam at WS-16
+2026-07-22 17:58:00,WS-16,akumar,4634,192.168.1.116,192.168.1.116,2,,,,,An account was logged off: akumar at WS-16
+2026-07-22 17:58:00,WS-04,aiyer,4634,192.168.1.104,192.168.1.104,2,,,,,An account was logged off: aiyer at WS-04
+2026-07-22 17:59:00,WS-12,itadmin2,4634,192.168.1.112,192.168.1.112,2,,,,,An account was logged off: itadmin2 at WS-12
+2026-07-22 17:59:00,WS-05,kverma,4634,192.168.1.105,192.168.1.105,2,,,,,An account was logged off: kverma at WS-05
+2026-07-22 17:59:01,DC01,lfernandes,4769,192.168.1.119,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for lfernandes to access FS02
+2026-07-22 17:59:02,FS02,lfernandes,4624,192.168.1.119,192.168.1.12,3,0x0,,,,An account was successfully logged on: lfernandes network logon to FS02
+2026-07-22 17:59:13,DC01,itadmin3,4625,192.168.1.150,192.168.1.10,3,0xC000006A,,,,An account failed to log on: itadmin3 from 192.168.1.150 (password spray attempt against DC01)
+2026-07-22 18:03:13,DC01,gnair,4625,192.168.1.150,192.168.1.10,3,0xC000006A,,,,An account failed to log on: gnair from 192.168.1.150 (password spray attempt against DC01)
+2026-07-22 18:05:30,DC01,kverma,4769,192.168.1.105,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for kverma to access FS01
+2026-07-22 18:05:31,FS01,kverma,4624,192.168.1.105,192.168.1.11,3,0x0,,,,An account was successfully logged on: kverma network logon to FS01
+2026-07-22 18:06:03,DC01,itadmin2,4769,192.168.1.112,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for itadmin2 to access FS01
+2026-07-22 18:06:04,FS01,itadmin2,4624,192.168.1.112,192.168.1.11,3,0x0,,,,An account was successfully logged on: itadmin2 network logon to FS01
+2026-07-22 18:07:13,DC01,svc_sql,4625,192.168.1.150,192.168.1.10,3,0xC000006A,,,,An account failed to log on: svc_sql from 192.168.1.150 (password spray attempt against DC01)
+2026-07-22 18:07:55,DC01,svarma,4769,192.168.1.113,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for svarma to access FS02
+2026-07-22 18:07:56,FS02,svarma,4624,192.168.1.113,192.168.1.12,3,0x0,,,,An account was successfully logged on: svarma network logon to FS02
+2026-07-22 18:11:13,DC01,ssharma,4625,192.168.1.150,192.168.1.10,3,0xC000006A,,,,An account failed to log on: ssharma from 192.168.1.150 (password spray attempt against DC01)
+2026-07-22 18:12:51,DC01,njoshi,4769,192.168.1.110,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for njoshi to access FS01
+2026-07-22 18:12:52,FS01,njoshi,4624,192.168.1.110,192.168.1.11,3,0x0,,,,An account was successfully logged on: njoshi network logon to FS01
+2026-07-22 18:15:13,DC01,apatel,4625,192.168.1.150,192.168.1.10,3,0xC000006A,,,,An account failed to log on: apatel from 192.168.1.150 (password spray attempt against DC01)
+2026-07-22 18:19:13,DC01,dghosh,4625,192.168.1.150,192.168.1.10,3,0xC000006A,,,,An account failed to log on: dghosh from 192.168.1.150 (password spray attempt against DC01)
+2026-07-22 18:23:13,DC01,lfernandes,4625,192.168.1.150,192.168.1.10,3,0xC000006A,,,,An account failed to log on: lfernandes from 192.168.1.150 (password spray attempt against DC01)
+2026-07-22 18:23:39,DC01,mreddy,4769,192.168.1.111,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for mreddy to access FS01
+2026-07-22 18:23:40,FS01,mreddy,4624,192.168.1.111,192.168.1.11,3,0x0,,,,An account was successfully logged on: mreddy network logon to FS01
+2026-07-22 18:25:33,DC01,njoshi,4769,192.168.1.110,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for njoshi to access FS02
+2026-07-22 18:25:34,FS02,njoshi,4624,192.168.1.110,192.168.1.12,3,0x0,,,,An account was successfully logged on: njoshi network logon to FS02
+2026-07-22 18:25:35,DC01,fD'souza,4769,192.168.1.112,192.168.1.10,,0x0,,,,A Kerberos service ticket was requested for fD'souza to access FS01
+2026-07-22 18:25:36,FS01,fD'souza,4624,192.168.1.112,192.168.1.11,3,0x0,,,,An account was successfully logged on: fD'souza network logon to FS01
+2026-07-22 18:27:13,DC01,rbhat,4625,192.168.1.150,192.168.1.10,3,0xC000006A,,,,An account failed to log on: rbhat from 192.168.1.150 (password spray attempt against DC01)
+2026-07-22 18:31:13,DC01,svc_web,4625,192.168.1.150,192.168.1.10,3,0xC000006A,,,,An account failed to log on: svc_web from 192.168.1.150 (password spray attempt against DC01)
+2026-07-22 18:35:13,DC01,svarma,4625,192.168.1.150,192.168.1.10,3,0xC000006A,,,,An account failed to log on: svarma from 192.168.1.150 (password spray attempt against DC01)
+2026-07-22 18:39:13,DC01,akumar,4624,192.168.1.150,192.168.1.10,3,0x0,,,,An account was successfully logged on: akumar from 192.168.1.150 (password spray attempt against DC01)
+2026-07-22 18:43:13,WS-07,akumar,4688,192.168.1.150,192.168.1.107,,0x0,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,,A new process was created by akumar: powershell.exe -nop -w hidden -enc JABjAGwAaQBlAG4AdAAgAD0AIABOAGUAdwAtAE8AYgBqAGUAYwB0ACAA
+2026-07-22 18:44:13,WS-07,akumar,4672,192.168.1.107,192.168.1.107,,,,,,Special privileges assigned to new logon: akumar (Administrators group) on WS-07
+2026-07-22 18:48:13,DC01,akumar,4720,192.168.1.107,192.168.1.10,,0x0,,svc_update,,A user account was created: svc_update by akumar
+2026-07-22 18:48:49,DC01,akumar,4728,192.168.1.107,192.168.1.10,,0x0,,svc_update,Domain Admins,A member was added to a security-enabled global group: svc_update added to Domain Admins by akumar
+2026-07-22 18:49:31,DC01,svc_update,4624,192.168.1.107,192.168.1.10,3,0x0,,,,An account was successfully logged on: svc_update network logon to DC01
+2026-07-22 18:49:46,DC01,svc_update,4672,192.168.1.10,192.168.1.10,,,,,,Special privileges assigned to new logon: svc_update (Administrators group) on DC01
