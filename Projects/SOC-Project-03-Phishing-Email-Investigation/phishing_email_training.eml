@@ -1,0 +1,36 @@
+From: Microsoft Security <security-noreply@microsoftonline-security.com>
+To: employee@techsolutions.com
+Subject: Unusual Sign-in Activity Detected
+Date: Tue, 22 Jul 2026 10:12:44 +0000
+Message-ID: <5A8D91F23@mail.microsoftonline-security.com>
+Return-Path: <security@microsoftonline-security.com>
+Reply-To: helpdesk@secure-login365.com
+Received: from mail.microsoftonline-security.com (203.0.113.45)
+    by mx.techsolutions.com with ESMTP;
+    Tue, 22 Jul 2026 10:12:45 +0000
+Authentication-Results:
+    spf=fail
+    dkim=none
+    dmarc=fail
+X-Mailer: PHPMailer 6.5
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+Dear User,
+
+We detected an unusual sign-in attempt to your Microsoft 365 account from a new location.
+
+To protect your account, please verify your identity immediately by visiting the secure verification portal below:
+
+https://login-microsoftonline365.com/verify
+
+If you do not verify your account within 12 hours, your Microsoft 365 account may be temporarily suspended.
+
+Thank you,
+
+Microsoft Security Team
+
+----------------------------------------------------
+This email is a synthetic training sample created for SOC analyst practice.
+The domains and IP addresses are fictional and intended for education only.
+----------------------------------------------------
