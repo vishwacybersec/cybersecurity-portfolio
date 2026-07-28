@@ -22,9 +22,7 @@ The investigation focused on analyzing web requests, identifying attack patterns
 ## Dataset
 
 - Apache Access Log Dataset
-- Real-world security training dataset
-- Approximately 140 log entries analyzed
-
+- Public Apache access log dataset used for cybersecurity training and analysis.
 ---
 
 ## Investigation Scope
