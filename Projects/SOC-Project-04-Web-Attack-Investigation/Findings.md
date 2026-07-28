@@ -8,8 +8,6 @@ Analyze Apache access logs to identify suspicious web activity and investigate c
 
 # Investigation Scope
 
-The investigation focused on identifying:
-
 - Normal Web Requests
 - Web Reconnaissance
 - SQL Injection (SQLi)
@@ -17,55 +15,117 @@ The investigation focused on identifying:
 
 ---
 
+# Evidence 1 – Normal Web Requests
+
+### Observation
+
+Normal requests were identified for the home page, images, CSS, and other application resources.
+
+### Sample Evidence
+
+```http
+GET / HTTP/1.1                         200
+GET /images/joomla_black.gif HTTP/1.1  200
+POST /index.php HTTP/1.1               200
+```
+
+### Analysis
+
+These requests indicate legitimate user activity. The HTTP 200 status code shows that the requested resources were successfully served by the web server.
+
+---
+
+# Evidence 2 – Web Reconnaissance
+
+### Observation
+
+The attacker attempted to access administrative resources.
+
+### Sample Evidence
+
+```http
+POST /administrator/index.php HTTP/1.1 303
+POST /administrator/index.php HTTP/1.1 500
+```
+
+### Analysis
+
+Repeated requests to administrative pages indicate reconnaissance activity. Attackers commonly probe these locations to identify exposed administration interfaces.
+
+---
+
+# Evidence 3 – SQL Injection
+
+### Observation
+
+The logs contain SQL Injection payloads.
+
+### Sample Evidence
+
+```http
+GET ... OR ...
+GET ... waitfor delay '0:0:6'
+```
+
+### Analysis
+
+The requests contain classic SQL Injection techniques such as logical conditions and time-based payloads used to test database behavior.
+
+---
+
+# Evidence 4 – Cross-Site Scripting (XSS)
+
+### Observation
+
+JavaScript payloads were identified in URL parameters.
+
+### Sample Evidence
+
+```http
+<script>
+ScRiPt
+onload=
+```
+
+### Analysis
+
+These payloads indicate attempts to execute malicious JavaScript within the web application, consistent with Cross-Site Scripting (XSS) attacks.
+
+---
+
 # Summary of Findings
 
-## Normal Activity
-
-Normal browsing activity was observed, including requests for application pages and standard web resources.
-
----
-
-## Web Reconnaissance
-
-Multiple requests targeted administrative pages and web application components, indicating reconnaissance activity.
+| Attack Type | Status |
+|-------------|--------|
+| Normal Requests | Observed |
+| Web Reconnaissance | Detected |
+| SQL Injection | Detected |
+| Cross-Site Scripting (XSS) | Detected |
 
 ---
 
-## SQL Injection
+# Severity
 
-Several requests contained SQL Injection payloads attempting authentication bypass and database-related attacks.
+**High**
 
----
+### Reason
 
-## Cross-Site Scripting (XSS)
-
-Requests containing JavaScript injection payloads were identified, indicating attempted XSS attacks.
-
----
-
-# Severity Assessment
-
-**Severity:** High
-
-**Reason:**
-
-- Multiple attack techniques observed.
-- Repeated malicious requests.
+- Multiple web attack techniques observed.
 - Reconnaissance followed by exploitation attempts.
-- No confirmed evidence of successful compromise based on the available logs.
+- No confirmed successful compromise based on the available Apache access logs.
 
 ---
 
 # Recommendations
 
 1. Deploy a Web Application Firewall (WAF).
-2. Validate and sanitize all user input.
+2. Validate and sanitize user input.
 3. Restrict access to administrative interfaces.
-4. Continuously monitor Apache logs using a SIEM.
-5. Keep web applications updated and patched.
+4. Monitor Apache logs using a SIEM.
+5. Keep the web application updated.
 
 ---
 
 # Conclusion
 
-The investigation identified Web Reconnaissance, SQL Injection, and Cross-Site Scripting (XSS) attempts within the Apache access logs. The available evidence did not confirm a successful compromise, but the observed attack patterns highlight the need for continuous monitoring and stronger web application security controls.
+The investigation identified multiple web attack attempts, including Web Reconnaissance, SQL Injection, and Cross-Site Scripting (XSS). While no successful compromise was confirmed, the attack patterns demonstrate active probing of the web application and highlight the need for continuous monitoring and stronger security controls.
